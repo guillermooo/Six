@@ -1,2 +1,3 @@
 *.py
 !main.py
+main.pyc
