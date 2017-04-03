@@ -15,7 +15,7 @@
 
 	// {"keys": ["ctrl+w"], "command": "delete_word", "args": {"forward": false}, "context": [{"key": "vi_insert_mode_aware"}, {"key": "vi_use_ctrl_keys"}]},
 
-	// {"keys": ["*"],			"command": "press_key", "args": {"key": "*"},		"context": [{"key": "vim_command_mode_aware"}]},
+	{"keys": ["*"],			"command": "vim_press_key", "args": {"key": "*"},		"context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["@"],			"command": "vim_press_key", "args": {"key": "@"},		"context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["#"],			"command": "press_key", "args": {"key": "#"},		"context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["+"],			"command": "press_key", "args": {"key": "+"},		"context": [{"key": "vim_command_mode_aware"}]},

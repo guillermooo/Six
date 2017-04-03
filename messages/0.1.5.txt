@@ -1,0 +1,13 @@
+CHANGELOG
+
+* implement null register ("_)
+
+	Use the null register to preserve registers during an edit
+	operation. For example, "_dw does not set any register.
+
+* implement star register ("*)
+
+	Use the star register to set or retrieve data from the system
+	clipboard.
+
+* correct caret position after characterwise P operation
