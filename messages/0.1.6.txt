@@ -1,0 +1,8 @@
+CHANGELOG 0.1.6
+
+* enable non-ascii characters in license holder's name
+* improve yanking behavior for dw, db:
+
+	- operating over a newline character generates a linewise yank
+	- same for deleted regions whose begin and end fall on the start of a line
+	
