@@ -1,0 +1,10 @@
+CHANGELOG 0.1.7
+
+* improve yanking behavior
+	
+	- refactor internal api
+	- mimic Vim quirks
+		- c, cc: yank newline char when operating on empty line
+		- C: clear register when operating on empty line
+		- d: ignore yank when operating on empty line
+		- y: improve caret positioning after upwards and downwards motion
