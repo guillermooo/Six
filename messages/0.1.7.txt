@@ -6,5 +6,5 @@ CHANGELOG 0.1.7
 	- mimic Vim quirks
 		- c, cc: yank newline char when operating on empty line
 		- C: clear register when operating on empty line
-		- d: ignore yank when operating on empty line
+		- d, D: ignore yank when operating on empty line
 		- y: improve caret positioning after upwards and downwards motion

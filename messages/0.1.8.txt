@@ -1,0 +1,12 @@
+CHANGELOG 0.1.8
+
+* improve yanking behavior
+	
+	- yG leaves the caret in the starting column
+	- C skips yanking if the buffer is empty
+
+* improve pasting behavior
+
+	- p leaves caret at first non-white-space character
+
+* <count>O<edits> leaves the caret at eol in the line above the starting line
