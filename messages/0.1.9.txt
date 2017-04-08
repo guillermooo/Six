@@ -1,0 +1,24 @@
+////////////////////////////////////////////////////////////////////////////////
+
+Six is entering a new cycle of feature implementation.
+
+Submit your request for missing motions via Twitter or email!
+
+@sublimesix
+hi@sublimesix.com
+
+////////////////////////////////////////////////////////////////////////////////
+
+CHANGELOG 0.1.9
+
+* NEW: implement ^ motion
+
+* NEW: initial support for mouse actions
+
+	- double click enters visual mode
+	- shift-click enters visual mode
+	- click enters normal mode
+
+	NOTE: Dragging the mouse is still unsupported.
+
+* BUGFIX: dot not store command for repeating while replaying macros

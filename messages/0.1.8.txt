@@ -9,4 +9,4 @@ CHANGELOG 0.1.8
 
 	- p leaves caret at first non-white-space character
 
-* <count>O<edits> leaves the caret at eol in the line above the starting line
+* <count>O<edits><Esc> leaves the caret at eol in the line above the starting line
