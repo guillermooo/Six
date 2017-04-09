@@ -1,0 +1,5 @@
+CHANGELOG 0.1.10
+
+* NEW: implement iw for normal mode
+* NEW: implement iw for visual mode
+* BUGFIX: do not show nag screen when replaying macros or repeating commands
