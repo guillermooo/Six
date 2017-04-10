@@ -56,7 +56,7 @@
 	{"keys": ["c"], "command": "vim_press_key", "args": {"key": "c"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["d"], "command": "vim_press_key", "args": {"key": "d"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["e"], "command": "vim_press_key", "args": {"key": "e"}, "context": [{"key": "vim_command_mode_aware"}]},
-	// {"keys": ["f"], "command": "press_key", "args": {"key": "f"}, "context": [{"key": "vim_command_mode_aware"}]},
+	{"keys": ["f"], "command": "vim_press_key", "args": {"key": "f"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["g"], "command": "vim_press_key", "args": {"key": "g"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["h"], "command": "vim_press_key", "args": {"key": "h"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["i"], "command": "vim_press_key", "args": {"key": "i"}, "context": [{"key": "vim_command_mode_aware"}]},
@@ -70,7 +70,7 @@
 	{"keys": ["q"], "command": "vim_press_key", "args": {"key": "q"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["r"], "command": "press_key", "args": {"key": "r"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["s"], "command": "vim_press_key", "args": {"key": "s"}, "context": [{"key": "vim_command_mode_aware"}]},
-	// {"keys": ["t"], "command": "press_key", "args": {"key": "t"}, "context": [{"key": "vim_command_mode_aware"}]},
+	{"keys": ["t"], "command": "vim_press_key", "args": {"key": "t"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["u"], "command": "vim_press_key_w", "args": {"key": "u"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["v"], "command": "vim_press_key", "args": {"key": "v"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["w"], "command": "vim_press_key", "args": {"key": "w"}, "context": [{"key": "vim_command_mode_aware"}]},
@@ -85,7 +85,7 @@
 	{"keys": ["C"], "command": "vim_press_key", "args": {"key": "C"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["D"], "command": "vim_press_key", "args": {"key": "D"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["E"], "command": "press_key", "args": {"key": "E"}, "context": [{"key": "vim_command_mode_aware"}]},
-	// {"keys": ["F"], "command": "press_key", "args": {"key": "F"}, "context": [{"key": "vim_command_mode_aware"}]},
+	{"keys": ["F"], "command": "vim_press_key", "args": {"key": "F"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["G"], "command": "vim_press_key", "args": {"key": "G"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["H"], "command": "press_key", "args": {"key": "H"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["I"], "command": "vim_press_key", "args": {"key": "I"}, "context": [{"key": "vim_command_mode_aware"}]},
@@ -99,7 +99,7 @@
 	// {"keys": ["Q"], "command": "press_key", "args": {"key": "Q"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["R"], "command": "press_key", "args": {"key": "R"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["S"], "command": "vim_press_key", "args": {"key": "S"}, "context": [{"key": "vim_command_mode_aware"}]},
-	// {"keys": ["T"], "command": "press_key", "args": {"key": "T"}, "context": [{"key": "vim_command_mode_aware"}]},
+	{"keys": ["T"], "command": "vim_press_key", "args": {"key": "T"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["U"], "command": "press_key", "args": {"key": "U"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["V"], "command": "vim_press_key", "args": {"key": "V"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["W"], "command": "press_key", "args": {"key": "W"}, "context": [{"key": "vim_command_mode_aware"}]},
@@ -445,4 +445,7 @@
 
 	// { "keys": ["tab"],   "command": "fs_completion", "context": [{"key": "vi_is_cmdline"}, {"key": "vi_cmdline_at_fs_completion"}] },
 	// { "keys": ["tab"],   "command": "vi_setting_completion", "context": [{"key": "vi_is_cmdline"}, {"key": "vi_cmdline_at_setting_completion"}] }
+	{ "keys": ["<character>"], "command": "vim_press_key", "args": { "key": "<character>"}, "context": [{"key": "vim_accept_any_input"}] },
+	{ "keys": ["esc"], "command": "vim_press_key", "args": { "key": "<Esc>"}, "context": [{"key": "vim_accept_any_input"}] },
+	{ "keys": ["enter"],"command": "vim_press_key", "args": { "key": "<CR>"}, "context": [{"key": "vim_accept_any_input"}] }
 ]

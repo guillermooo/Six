@@ -1,0 +1,24 @@
+CHANGELOG 0.1.10
+
+* NEW: f, t, F, T for normal mode
+* NEW: f, t, F, T for operator pending mode
+* NEW: f, t, F, T for visual mode
+* BUGFIX: show nag screen less often
+
+////////////////////////////////////////////////////////////////////////////////
+
+From now on, pre-release versions will be available.
+
+Package Control ignores pre-release versions by default. If you want to be on
+the bleeding edge, enable pre-releases for Six.
+
+Consult the `install_prereleases` setting at:
+
+https://packagecontrol.io/docs/settings
+
+Pre-release versions will include incomplete (relative to the planned extent
+of the feature implementation) but functional features.
+
+////////////////////////////////////////////////////////////////////////////////
+
+---
