@@ -1,0 +1,9 @@
+CHANGELOG 0.1.12
+
+	* NEW: implement f, t, F, T for normal and visual mode
+	* NEW: implement , and ; for normal mode and visual mode
+	* NEW: <Esc> in normal mode performs one of the following actions:
+		- collapse selections
+		- ensure single selection
+		- dismiss panels
+	* BUGFIX: don't show nag screen as often
