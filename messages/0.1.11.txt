@@ -1,4 +1,4 @@
-CHANGELOG 0.1.10
+CHANGELOG 0.1.11
 
 * NEW: f, t, F, T for normal mode
 * NEW: f, t, F, T for operator pending mode
