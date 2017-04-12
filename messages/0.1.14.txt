@@ -1,0 +1,4 @@
+CHANGELOG 0.1.14
+
+	* BUGFIX: * only searches word patterns starting with [_a-zA-Z0-9] (non configurable)
+	* BUGFIX: * always highlights the current match
