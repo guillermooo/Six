@@ -1,0 +1,3 @@
+CHANGELOG 0.1.16
+
+	* BUGFIX: implement counts for *
