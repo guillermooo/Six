@@ -1,0 +1,9 @@
+CHANGELOG 0.1.18
+
+	* NEW: implement > for normal mode
+
+		Note: >> is not yet available.
+
+	* BUGFIX: improve how * determines the current word
+	* BUGFIX: * now highlights again all matches
+	
