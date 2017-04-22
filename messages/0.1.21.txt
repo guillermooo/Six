@@ -1,0 +1,6 @@
+CHANGELOG 0.1.21
+	
+	* NEW: implement < for normal mode
+	* NEW: implement << for normal mode
+	* NEW: implement < for visual mode
+	* NEW: implement < for visual line mode
