@@ -24,7 +24,7 @@
 	{"keys": ["."],			"command": "vim_press_key", "args": {"key": "."},		"context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": [":"],			"command": "vim_press_key", "args": {"key": ":"},		"context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": [";"],			"command": "vim_press_key", "args": {"key": ";"},		"context": [{"key": "vim_command_mode_aware"}]},
-	// {"keys": ["<"],			"command": "press_key", "args": {"key": "<lt>"},	"context": [{"key": "vim_command_mode_aware"}]},
+	{"keys": ["<"],			"command": "vim_press_key", "args": {"key": "<"},		"context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": [">"],			"command": "vim_press_key", "args": {"key": ">"},		"context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["^"],			"command": "vim_press_key", "args": {"key": "^"},		"context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["_"],			"command": "vim_press_key", "args": {"key": "_"},		"context": [{"key": "vim_command_mode_aware"}]},
