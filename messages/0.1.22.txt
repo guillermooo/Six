@@ -2,4 +2,4 @@ CHANGELOG 0.1.22
 	
 	* NEW: implement / for normal mode and operator pending mode
 
-	  Note: This is implementation has known bugs, but it's already functional.
+	  Note: This implementation has known bugs, but it's already functional.
