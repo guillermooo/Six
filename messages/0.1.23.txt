@@ -1,4 +1,4 @@
-CHANGELOG 0.1.24
+CHANGELOG 0.1.23
 	
-	* NEW: /<CR> repeats last search
-	* NEW: /<CR> shows error if no previous search available
+	* BUGFIX: / search preview accepts counts (normal mode)
+	* BUGFIX: / search preview wraps around buffer end (normal mode)
