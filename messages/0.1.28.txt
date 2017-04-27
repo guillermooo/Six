@@ -1,0 +1,4 @@
+CHANGELOG 0.1.28
+
+	* NEW: implement n for visual and visual line modes
+	* BUGFIX: <count>> in some modes indents <count> levels
