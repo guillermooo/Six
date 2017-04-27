@@ -1,0 +1,4 @@
+CHANGELOG 0.1.26
+	
+	* BUGFIX INTERNAL: fix class name
+	* BUGFIX INTERNAL: correctly test for non-match returned by Sublime Text API

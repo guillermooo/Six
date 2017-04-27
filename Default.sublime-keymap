@@ -64,7 +64,7 @@
 	{"keys": ["k"], "command": "vim_press_key", "args": {"key": "k"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["l"], "command": "vim_press_key", "args": {"key": "l"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["m"], "command": "press_key", "args": {"key": "m"}, "context": [{"key": "vim_command_mode_aware"}]},
-	// {"keys": ["n"], "command": "press_key", "args": {"key": "n"}, "context": [{"key": "vim_command_mode_aware"}]},
+	{"keys": ["n"], "command": "vim_press_key", "args": {"key": "n"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["o"], "command": "vim_press_key", "args": {"key": "o"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["p"], "command": "vim_press_key", "args": {"key": "p"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["q"], "command": "vim_press_key", "args": {"key": "q"}, "context": [{"key": "vim_command_mode_aware"}]},
