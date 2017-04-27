@@ -21,6 +21,10 @@
 	"0.1.23": "messages/0.1.23.txt",
 	"0.1.24": "messages/0.1.24.txt",
 	"0.1.25": "messages/0.1.25.txt",
+<<<<<<< HEAD
 	"0.1.26": "messages/0.1.26.txt",
 	"0.1.27": "messages/0.1.27.txt"
+=======
+	"0.1.26": "messages/0.1.26.txt"
+>>>>>>> 6729b6b53e74628cfab68d9cf34d4a2c289eb6f4
 }
