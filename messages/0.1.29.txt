@@ -1,0 +1,9 @@
+CHANGELOG 0.1.29
+
+	* NEW: implement gd for normal mode
+
+		NOTE:
+		Currently, gd does not refer to any regex to find the previous
+		function start. Instead, it uses scopes. Therefore, gd will only work
+		if the current syntax definition uses the scopes that gd needs to
+		identify funcions.
