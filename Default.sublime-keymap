@@ -446,6 +446,6 @@
 	// { "keys": ["tab"],   "command": "fs_completion", "context": [{"key": "vi_is_cmdline"}, {"key": "vi_cmdline_at_fs_completion"}] },
 	// { "keys": ["tab"],   "command": "vi_setting_completion", "context": [{"key": "vi_is_cmdline"}, {"key": "vi_cmdline_at_setting_completion"}] }
 	{ "keys": ["<character>"], "command": "vim_press_key", "args": { "key": "<character>"}, "context": [{"key": "vim_accept_any_input"}] },
-	{ "keys": ["esc"], "command": "vim_press_key", "args": { "key": "<Esc>"}, "context": [{"key": "vim_accept_any_input"}] },
+	{ "keys": ["escape"], "command": "vim_press_key", "args": { "key": "<Esc>"}, "context": [{"key": "vim_accept_any_input"}] },
 	{ "keys": ["enter"],"command": "vim_press_key", "args": { "key": "<CR>"}, "context": [{"key": "vim_accept_any_input"}] }
 ]

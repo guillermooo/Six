@@ -2,8 +2,9 @@ CHANGELOG 0.1.30
 
 	* NEW: aw for normal and visual mode
 
-		NOTE: Not all vim quirks have been implemented yet, especially for visual
-			  mode.
+		NOTE:
+		Not all vim quirks have been implemented yet, especially for visual
+		mode.
 
 	* NEW: gd for visual mode
 	* NEW: gD for normal and visual mode
@@ -13,12 +14,13 @@ CHANGELOG 0.1.30
 	* NEW: gq for normal, visual and visual line mode
 	* NEW: use_system_clipboard setting in Six.sublime-settings
 
-		NOTE: If use_system_clipboard is true, all commands that set the " register
-			  will also set the system clipboard.
+		NOTE:
+		If use_system_clipboard is true, all commands that set the " register
+		will also set the system clipboard.
 
-			  Use Packages/User/Six.sublime-settings to change this setting. You
-			  must create and open this file manually, no convenience command palette
-			  commands are provided at the moment.
+		Use Packages/User/Six.sublime-settings to change this setting. You
+		must create and open this file manually, no convenience command palette
+		commands are provided at the moment.
 
 	* BUGFIX: correctly record / commands in macros
 	
