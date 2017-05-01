@@ -1,0 +1,6 @@
+CHANGELOG 0.1.33
+
+	BUGFIX: fix some cases when switching from visual line mode to visual mode
+	REFACTOR INTERNAL: opearators requiring a motion share more code
+	REFACTOR INTERNAL: operator base classes
+	
