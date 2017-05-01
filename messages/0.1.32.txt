@@ -1,0 +1,10 @@
+CHANGELOG 0.1.32
+
+	BUGFIX: improve how slash command highlights active match
+	BUGFIX: slash command now shows start position again if no match is found
+	BUGFIX: fix off-by-one error in e (internal normal mode)
+	BUGFIX: gd sets search metadata so that n works as expected after gd
+	BUGFIX: fix xpos after > in visual line mode
+	BUGFIX INTERNAL: fix error in error classes
+	BUGFIX INTERNAL: do not reset command state when activating views in some cases
+	BUGFIX INTERNAL: pass on <Esc> key press to command state when canceling slash command
