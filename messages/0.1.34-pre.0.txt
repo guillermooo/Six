@@ -1,0 +1,12 @@
+CHANGELOG 0.1.34-pre.0
+
+	REFACTOR INTERNAL: operators share more code
+
+		Note:
+		Most operators are affected by this refactor. Much of the
+		work is now delegated to the base classes for operators.
+
+		The structure of concrete operators has also been unified.
+		All tests are passing, but some behavior changes may have
+		slipped through.
+	
