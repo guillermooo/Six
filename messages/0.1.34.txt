@@ -1,0 +1,21 @@
+CHANGELOG 0.1.33
+
+	VIM TIP: yh at BOL clears the register.
+
+	REFACTOR INTERNAL: operators share more code
+
+		Note:
+		Most operators are affected by this refactor. Much of the
+		work is now delegated to the base classes for operators.
+
+		The structure of concrete operators has also been unified.
+		All tests are passing, but some behavior changes may have
+		slipped through.
+	
+	BUGFIX: j fails on last line	
+	BUGFIX: k fails on first line
+	BUGFIX: h fails at BOL
+	BUGFIX: y is not a repeatable command
+
+		NOTE:
+		It can still be used in macros.
