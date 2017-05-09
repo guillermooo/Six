@@ -1,4 +1,4 @@
-CHANGELOG 0.1.33
+CHANGELOG 0.1.34
 
 	VIM TIP: yh at BOL clears the register.
 

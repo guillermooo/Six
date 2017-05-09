@@ -1,0 +1,7 @@
+CHANGELOG 0.1.35
+
+	NEW: add basic :wq command
+	NEW: add :<line> command
+	BUGFIX: ensure no caret is beyond EOL after saving view in normal and command-line mode
+	BUGFIX: x is mapped to d in visual and visual line mode
+	BUGFIX: fix regression in y in visual line mode
