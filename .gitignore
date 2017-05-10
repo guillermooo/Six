@@ -1,3 +1,5 @@
 *.py
 !main.py
 main.pyc
+
+tests/
