@@ -1,0 +1,5 @@
+CHANGELOG 0.1.37
+
+	FIX: fix caret position after switching from visual line mode to normal mode in some edge cases
+	REFACTOR: delete unused code
+	REFACTOR: share more code between f-family motions
