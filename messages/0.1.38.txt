@@ -1,0 +1,23 @@
+CHANGELOG 0.1.38
+
+	NEW: add jumplist
+	NEW: add C-o command in normal mode
+	NEW: add C-i command in normal mode
+
+	NOTES:
+
+		The jumplist stores the 100 newest visited locations, by window. Not all motions create
+		a new jump in the jumplist. Examples of jump commands are G, gg, gd and /.
+
+		Ctrl-prefixed Vim commands, such as Ctrl-o and Ctrl-i, which cycle through the jumplist,
+		are disabled by default. To enable such keys, set enable_ctrl_keys to true in your
+		User/Six.sublime-settings file. If you enable Ctrl-prefixed Vim commands, however, some
+		default Sublime Text shortcuts may become unavailable. For example, Ctrl-i will disable
+		the Sublime Text incremental search forward shortcut on some platforms.
+
+		Known bugs:
+
+			- Attempting to jump to a different file may open the corresponding file even
+			  if it's already open in a different group in the same window.
+
+			- Ctrl-i and Ctrl-o should not be repeatable via '.'.
