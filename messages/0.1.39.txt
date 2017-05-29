@@ -1,0 +1,5 @@
+CHANGELOG 0.1.39
+
+	NEW: add W in normal mode
+	NEW: add W in visual mode
+	
