@@ -1,0 +1,18 @@
+CHANGELOG 0.1.40
+
+	NEW: enable_ignore_case setting for / and related commands.
+	NEW: enable_smart_case setting for / and related commands.
+
+	NOTES:
+
+		If enable_ignore_case is true, / and other search commands will perform
+		case insensitive searches.
+
+		If enable_smart_case is true and enable_ignore_case is true, / and other
+		search commands will perform case insensitive searches when the pattern
+		is written all in lower case; case sensitive searches otherwise.
+
+		The * command always ignores enable_smart_case.
+
+		To adjust these options, use User/Six.sublime-settings.
+	
