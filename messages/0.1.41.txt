@@ -1,0 +1,14 @@
+CHANGELOG 0.1.41
+
+	NEW: implemented ?
+	NEW: enabled n for ?
+	NEW: implemented N
+	NEW: implemented #
+
+	NOTES:
+
+		Similarly to /, these commands are affected by the following settings
+		in User/Six.sublime-settings:
+
+			- enable_ignore_case
+			- enable_smart_case
