@@ -76,7 +76,7 @@
 	{"keys": ["w"], "command": "vim_press_key", "args": {"key": "w"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["x"], "command": "vim_press_key", "args": {"key": "x"}, "context": [{"key": "vim_command_mode_aware"}]},
 	{"keys": ["y"], "command": "vim_press_key", "args": {"key": "y"}, "context": [{"key": "vim_command_mode_aware"}]},
-	// {"keys": ["z"], "command": "press_key", "args": {"key": "z"}, "context": [{"key": "vim_command_mode_aware"}]},
+	{"keys": ["z"], "command": "vim_press_key", "args": {"key": "z"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["ç"], "command": "press_key", "args": {"key": "ç"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["ñ"], "command": "press_key", "args": {"key": "ñ"}, "context": [{"key": "vim_command_mode_aware"}]},
 

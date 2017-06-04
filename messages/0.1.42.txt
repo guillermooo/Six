@@ -2,6 +2,3 @@ CHANGELOG 0.1.42
 
 	FIX: improve accuracy of ? searches
 	
-	ANNOUNCEMENT:
-	
-		Junventus 1 - Real Madrid 1

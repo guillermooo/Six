@@ -1,0 +1,7 @@
+CHANGELOG 0.1.43
+
+	NEW: z. in normal mode
+	NEW: zz in normal mode
+	NEW: zt in normal mode
+	NEW: z<CR> in normal mode
+	
