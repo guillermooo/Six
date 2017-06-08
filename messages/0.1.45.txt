@@ -1,0 +1,8 @@
+CHANGELOG 0.1.45
+
+	FIX: make sure :help command works
+
+	NOTES:
+
+		Due to mistakes during the release of version 0.1.44, the :help
+		command was not enabled. This version tries to fix that error.
