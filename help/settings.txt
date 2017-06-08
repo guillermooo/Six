@@ -1,0 +1,13 @@
+*settings.txt*
+
+			*'use_system_clipboard'*
+'use_system_clipboard'	boolean (default: false)
+			global (Six.sublime-settings)
+
+			If set to true, operators that set the " register will also set
+			the system clipboard.
+
+			Currently, you have to modify this setting directly in the
+			corresponding settings file.
+
+

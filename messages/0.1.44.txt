@@ -1,0 +1,15 @@
+CHANGELOG 0.1.44
+
+	NEW: basic help system via the :h(elp) <keyword> command.
+	NEW: basic K command in normal mode for navigating help topics.
+
+	NOTES:
+
+		If you run the :h command without an argument, the TOC will open.
+
+		The Sublime Six help files mainly document behaviors that vary
+		compared to Vim.
+
+		For general help about commands, you should consult the Vim help
+		files, for example at http://vimdoc.sourceforge.net/.
+	

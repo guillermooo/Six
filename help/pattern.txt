@@ -1,0 +1,6 @@
+*pattern.txt*
+
+							*gd*
+gd			Go to local declaration. Uses scopes to locate functions. If
+			the required scopes don't exist in the active syntax file, it
+			will fail.
