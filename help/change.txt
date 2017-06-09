@@ -1,0 +1,7 @@
+*change.txt*
+
+							*y* *yank*
+y			In Six, yanking operates only on the most recent selection.
+			Multiple selections are not supported.
+
+			BUG: Yanking currently operates on view.sel()[0], not view.sel()[-1].

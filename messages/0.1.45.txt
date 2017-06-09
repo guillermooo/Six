@@ -1,6 +1,6 @@
 CHANGELOG 0.1.45
 
-	FIX: make sure :help command works
+	BUGFIX: make sure :help command works
 
 	NOTES:
 

@@ -4,5 +4,8 @@
 	"use_system_clipboard": ["settings", 3, 4],
 	"settings": ["settings", 1, 0],
 	"pattern": ["pattern", 1, 0],
-	"toc": ["toc", 1, 0]
+	"toc": ["toc", 1, 0],
+	"yank": ["change", 3, 8],
+	"y": ["change", 3, 8],
+	"change": ["change", 1, 0]
 }

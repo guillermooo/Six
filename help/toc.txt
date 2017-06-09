@@ -2,3 +2,4 @@ Advanced editing ~
 
 |pattern.txt|		Regular expressions and search commands.
 |settings.txt|		Options.
+|change.txt|		Commands related to changing text.

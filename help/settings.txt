@@ -10,4 +10,32 @@
 			Currently, you have to modify this setting directly in the
 			corresponding settings file.
 
+			*'enable_ctrl_keys'*
+'enable_ctrl_keys'	boolean (default: false)
+			global (Six.sublime-settings)
 
+			If set to true, commands prefixed by Ctrl, like C-o and C-i
+			will be available.
+
+			This feature is disabled by default because it makes default
+			Sublime Text shortcuts unavailable. Users already familiar with
+			many Vim commands should set this option to true.
+
+			*'enable_ignore_case'*
+'enable_ignore_case'	boolean (default: false)
+			global (Six.sublime-settings)
+
+			If set to true, some search commands, like /, will perform
+			case-insensitive searches.
+
+			*'enable_smart_case'*
+'enable_smart_case'	boolean (default: false)
+			global (Six.sublime-settings)
+
+			If enable_ignore_case is true and this option is set to true, some
+			search commands, like /, will perform case-insensitive searches if
+			the search pattern contains only lowercase letters, and case-
+			sensitive searches otherwise.
+
+			The * and # commands ignore this setting.
+			
