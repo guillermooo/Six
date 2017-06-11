@@ -1,4 +1,4 @@
 CHANGELOG 0.1.49
 
-	NEW: implement basic r command form normal mode
+	NEW: implement basic r command for normal mode
 	

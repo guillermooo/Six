@@ -1,0 +1,23 @@
+CHANGELOG 0.1.50
+
+	This version includes no changes.
+
+	ANNOUNCEMENT
+
+		If Six won't load for you, this information may help you.
+
+		Six switched from a .sublime-package-based install to a folder-based
+		install a few versions ago. This change should have been transparent
+		to users, but Package Control may fail to delete the pre-existing
+		.sublime-package file, which will cause Six to fail loading.
+
+		To solve this issue, open the Data/Installed Packages folder [1] on
+		your platform and delete any Six.sublime-package file you see in
+		there. After restarting Sublime Text, Six should load normally from
+		Data/Packages/Six.
+
+		If after trying the above steps you are still experiencing issues
+		running Six, please report an issue at
+		https://github.com/guillermooo/Six/issues.
+
+		[1] http://docs.sublimetext.info/en/latest/basic_concepts.html#the-data-directory
