@@ -1,0 +1,8 @@
+CHANGELOG 0.1.48
+
+	NEW: implement i" for normal and visual mode
+	NEW: implement i' for normal and visual mode
+	NEW: implement i` for normal and visual mode
+	NEW: implement i( for normal and visual mode
+	NEW: implement i[ for normal and visual mode
+	NEW: implement i{ for normal and visual mode
