@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Six Search
+scope: text.six-search
+hidden: false
+
+contexts:
+  main:
+    - match: .*
+      scope: source.six-search

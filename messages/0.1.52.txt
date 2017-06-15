@@ -1,0 +1,9 @@
+CHANGELOG 0.1.52
+
+	NEW: add history for / and ?
+
+	NOTES:
+
+		/ history stores up to 50 patterns. This value is not configurable.
+
+		To use the / history, press up or down while the / panel is open.
