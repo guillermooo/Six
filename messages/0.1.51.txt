@@ -1,0 +1,5 @@
+CHANGELOG 0.1.51
+
+	NEW: implemented | for normal and visual mode
+	NEW: implemented ge for normal and visual mode
+	NEW: implemented gE for normal and visual mode
