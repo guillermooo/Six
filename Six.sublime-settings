@@ -1,0 +1,19 @@
+{
+	// Whether operators should also set the system clipboard whenever they set the " register.
+	"use_system_clipboard": false,
+
+	// Toggles availability of ctrl-prefixed Vim commands in Six. Setting this to true may
+	// render some default Sublime Text shortcuts unavailable.
+	"enable_ctrl_keys": false,
+
+	// Toggles case sensitiveness for some search operations.
+	"enable_ignore_case": false,
+
+	// Toggles smart case sensitiveness for some search operations. If true, search operations
+	// will be case insensitive except if the pattern contains any upper case letter.
+	// For this setting to work, ignore_case must be true.
+	"enable_smart_case": false,
+
+	// If true, buffer searches will wrap around the edges.
+	"enable_search_wrap": true
+}

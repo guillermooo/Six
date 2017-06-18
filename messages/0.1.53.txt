@@ -1,0 +1,23 @@
+CHANGELOG 0.1.53
+
+	NEW: enable_search_wrap option
+
+	NOTE:
+
+		If enable_search_wrap is set to false, / and ? will not wrap around the
+		buffer ends.
+
+		enable_search_wrap is true by default.
+
+	FIX: fine-tune on_change behavior for / and ?
+	FIX: 1G and 1% behave as expected
+
+	NOTE:
+
+		This change may have broken a number of other commands.
+
+	FIX: do not repeat commands such as Ctrl-o or K
+	FIX: improve jupmlist navigation via Ctrl-o and Ctrl-i
+	FIX: refactor motions
+	FIX: work around dirty buffer indicator when exiting insert mode after
+		 trim_trailing_white_space was issued.

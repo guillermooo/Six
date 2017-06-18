@@ -10,6 +10,8 @@ Welcome to
 
 Sublime Six is an advanced Vim emulator for Sublime Text, implemented as a Python plugin.
 
+See :help settings for configuration options.
+
 For any questions, bug reports, etc., contact hi@sublimesix.com.
 
 http://www.sublimesix.com
