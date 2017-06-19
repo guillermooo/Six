@@ -1,0 +1,14 @@
+CHANGELOG 0.1.54
+
+	NEW: <C-r> in normal mode (redo)
+	NEW: <C-q> in normal mode (go to local symbol)
+	NEW: <C-S-q> in normal mode (go to global symbol)
+
+	NOTES:
+
+		These commands will only work if enable_ctrl_keys is set to True
+		in User/Six.sublime-settings.
+
+		See :h settings for more details.
+
+	Follow https://twitter.com/sublimesix for important notifications.

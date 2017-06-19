@@ -125,8 +125,8 @@
 	// {"keys": ["ctrl+n"], "command": "press_key", "args": {"key": "<C-n>"}, "context": [{"key": "vim_command_mode_aware"}, 	{"key": "vi_use_ctrl_keys"}]},
 	{"keys": ["ctrl+o"], "command": "vim_press_key", "args": {"key": "<C-o>"}, "context": [{"key": "vim_command_mode_aware"}, 	{"key": "six_enable_ctrl_keys"}]},
 	// {"keys": ["ctrl+p"], "command": "press_key", "args": {"key": "<C-p>"}, "context": [{"key": "vim_command_mode_aware"}, 	{"key": "vi_use_ctrl_keys"}]},
-	// {"keys": ["ctrl+r"], "command": "press_key", "args": {"key": "<C-r>"}, "context": [{"key": "vim_command_mode_aware"},  	{"key": "vi_use_ctrl_keys"}]},
-	// {"keys": ["ctrl+q"], "command": "press_key", "args": {"key": "<C-q>"}, "context": [{"key": "vim_command_mode_aware"}, 	{"key": "vi_use_ctrl_keys"}]},
+	{"keys": ["ctrl+r"], "command": "vim_press_key_w", "args": {"key": "<C-r>"}, "context": [{"key": "vim_command_mode_aware"},  	{"key": "six_enable_ctrl_keys"}]},
+	{"keys": ["ctrl+q"], "command": "vim_press_key", "args": {"key": "<C-q>"}, "context": [{"key": "vim_command_mode_aware"}, 	{"key": "six_enable_ctrl_keys"}]},
 	// {"keys": ["ctrl+r"], "command": "press_key", "args": {"key": "<C-r>"}, "context": [{"key": "vim_command_mode_aware"}, 	{"key": "vi_use_ctrl_keys"}]},
 	// {"keys": ["ctrl+s"], "command": "press_key", "args": {"key": "<C-s>"}, "context": [{"key": "vim_command_mode_aware"}, 	{"key": "vi_use_ctrl_keys"}]},
 	// {"keys": ["ctrl+t"], "command": "press_key", "args": {"key": "<C-t>"}, "context": [{"key": "vim_command_mode_aware"}, 	{"key": "vi_use_ctrl_keys"}]},
@@ -440,6 +440,8 @@
 	// {"keys": ["ctrl+shift+f10"], "command": "press_key", "args": {"key": "<C-S-f10>"}, "context": [{"key": "vim_command_mode_aware"}, {"key": "vi_use_ctrl_keys"}]},
 	// {"keys": ["ctrl+shift+f11"], "command": "press_key", "args": {"key": "<C-S-f11>"}, "context": [{"key": "vim_command_mode_aware"}, {"key": "vi_use_ctrl_keys"}]},
 	// {"keys": ["ctrl+shift+f12"], "command": "press_key", "args": {"key": "<C-S-f12>"}, "context": [{"key": "vim_command_mode_aware"}, {"key": "vi_use_ctrl_keys"}]},
+
+	{"keys": ["ctrl+shift+q"], "command": "vim_press_key", "args": {"key": "<C-S-q>"}, "context": [{"key": "vim_command_mode_aware"}, {"key": "six_enable_ctrl_keys"}]},
 	// { "keys": ["up"],   "command": "cycle_cmdline_history", "args": {"backwards": true }, "context": [{"key": "vi_is_cmdline"}] },
 	// { "keys": ["down"], "command": "cycle_cmdline_history",								  "context": [{"key": "vi_is_cmdline"}] },
 
