@@ -1,0 +1,7 @@
+CHANGELOG 0.1.55
+
+	FIX: improve false dirty file detection	
+	FIX: improve history navigation of help topics
+
+	Follow https://twitter.com/sublimesix for important notifications.
+	
