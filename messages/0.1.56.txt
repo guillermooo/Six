@@ -1,0 +1,12 @@
+CHANGELOG 0.1.56
+
+	NEW: ex mode now uses a dedicated input panel
+
+	NOTE:
+
+		The ex mode panel uses the Six Ex Mode syntax definition. This means
+		that you can apply settings to the panel. For example, you can set
+		a color scheme using the color_scheme setting in User/Six Ex Mode.sublime-settings.
+
+	Follow https://twitter.com/sublimesix for important notifications.
+	

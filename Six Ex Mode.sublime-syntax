@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Six Ex Mode
+scope: text.six-ex
+hidden: false
+
+contexts:
+  main:
+    - match: .*
+      scope: text.six-ex
