@@ -2,7 +2,7 @@
 ---
 name: Six Help
 scope: text.six-help
-hidden: false
+hidden: true
 
 contexts:
   main:

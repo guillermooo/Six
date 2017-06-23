@@ -2,7 +2,7 @@
 ---
 name: Six Search
 scope: text.six-search
-hidden: false
+hidden: true
 
 contexts:
   main:

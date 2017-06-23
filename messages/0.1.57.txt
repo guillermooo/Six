@@ -1,0 +1,6 @@
+CHANGELOG 0.1.57
+
+	NEW: <C-w>h in normal mode to activate next group.
+	NEW: <C-w>l in normal mode to activate previous group.
+	FIX: hide Six syntax definition files from menus.
+	

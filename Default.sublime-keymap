@@ -378,6 +378,8 @@
 	{"keys": ["?"], "command": "vim_press_key", "args": {"key": "?"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["¿"], "command": "press_key", "args": {"key": "¿"}, "context": [{"key": "vim_command_mode_aware"}]},
 
+	{"keys": ["ctrl+w"], "command": "vim_press_key_w", "args": { "key": "<C-w>" }, "context": [{ "key": "vim_command_mode_aware" }, { "key": "six_enable_ctrl_keys" }]},
+
 	// {"keys": ["ctrl+1"], "command": "press_key", "args": {"key": "<C-1>"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["ctrl+2"], "command": "press_key", "args": {"key": "<C-2>"}, "context": [{"key": "vim_command_mode_aware"}]},
 	// {"keys": ["ctrl+3"], "command": "press_key", "args": {"key": "<C-3>"}, "context": [{"key": "vim_command_mode_aware"}]},
