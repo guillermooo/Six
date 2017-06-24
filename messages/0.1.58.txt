@@ -1,5 +1,6 @@
 CHANGELOG 0.1.58
 
-	FIX: improve interaction with UI state and history state when switching
-		 views while in insert mode.
-	
+    FIX: improve interaction with UI state and history state when switching
+         views while in insert mode.
+
+    Follow https://twitter.com/sublimesix for important notifications.

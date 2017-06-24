@@ -1,0 +1,35 @@
+CHANGELOG 0.8.0
+
+	NEW: C-j selects next auto complete item in autocomplete list when the list is showing.
+	NEW: C-k selects previous auto complete item in autocomplete list when the list is showing.
+	NEW: add "Preferences: Six Settings" command to Command Palette.
+
+	BREAKING CHANGE: unify context names and some internal command names. See NOTES below.
+
+	NOTES
+
+		*****************************************************************************************
+		******* IMPORTANT ***********************************************************************
+		*****************************************************************************************
+
+		If you have defined any custom key bindings, they will not work until you perform
+		the following name substitutions in User/Default.sublime-keymap:
+
+		Change this...				To this...
+		=======================     ============================
+
+		vim_press_key				six_press_key
+		vim_command_mode_aware		six_is_in_command_mode
+		vi_insert_mode_aware		six_is_in_insert_mode
+
+		Please note that currently custom key mappings are not officially supported.
+
+	ANNOUNCEMENT
+
+		The price of a license will be increased when Six reaches version 1.0 (scheduled to occur
+		in a few more weeks or short months).
+
+		A license helps to support Six development and is valid for all versions prior to and
+		including 1.x.x. A new license would only be required for a theoretical Six 2.0 version.
+
+    Follow https://twitter.com/sublimesix for important notifications.
