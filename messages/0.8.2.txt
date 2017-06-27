@@ -1,0 +1,7 @@
+CHANGELOG 0.8.2
+
+    NEW: add i< to normal and visual mode
+    NEW: add it to normal and visual mode
+    NEW: add at to normal and visual mode
+
+    Follow https://twitter.com/sublimesix for important notifications.

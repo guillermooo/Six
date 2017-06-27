@@ -1,9 +1,9 @@
 CHANGELOG 0.8.1
 
-    NEW: add = to normal mode (reindent lines)
+    NEW: add = to normal mode (reindent lines).
     NEW: add a(-family of commands.
     FIX: 2di( and similar commands now include the delimeter in the selection.
-    FIX: i(, i[ and i{ now operate oever multiple lines.
-    FIX: fine-tune i(-family of commands
+    FIX: i(, i[ and i{ now operate over multiple lines.
+    FIX: fine-tune i(-family of commands.
 
     Follow https://twitter.com/sublimesix for important notifications.

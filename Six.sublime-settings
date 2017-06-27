@@ -11,7 +11,7 @@
 
 	// Toggles smart case sensitiveness for some search operations. If true, search operations
 	// will be case insensitive except if the pattern contains any upper case letter.
-	// For this setting to work, ignore_case must be true.
+	// For this setting to work, enable_ignore_case must also be true.
 	"enable_smart_case": false,
 
 	// If true, buffer searches will wrap around the edges.
