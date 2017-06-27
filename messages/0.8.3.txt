@@ -1,0 +1,5 @@
+CHANGELOG 0.8.3
+
+    FIX: fine tune it and at for visual mode.
+
+    Follow https://twitter.com/sublimesix for important notifications.
