@@ -7,4 +7,4 @@ hidden: true
 contexts:
   main:
     - match: .*
-      scope: source.six-search
+      scope: text.six-search

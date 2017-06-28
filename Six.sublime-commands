@@ -1,5 +1,4 @@
 [
 	{ "caption": "Six: Enter License", "command": "vim_priv" },
-	{ "caption": "Six: Enter License", "command": "vim_priv" },
 	{ "caption": "Preferences: Six Settings", "command": "edit_settings", "args": {"base_file": "${packages}/Six/Six.sublime-settings", "default": "// Settings in here override those in \"Six/Six.sublime-settings\".\n{\n\t$0\n}\n" } }
 ]
