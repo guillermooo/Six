@@ -1,0 +1,8 @@
+CHANGELOG 0.8.5
+
+    You need to restart Sublime Text for the changes to work.
+
+    NEW: the repeat operator (.) now works after visual and visual line mode
+         commands when the selection was oriented forwards.
+
+    Follow https://twitter.com/sublimesix for important notifications.
