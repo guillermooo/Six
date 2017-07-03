@@ -1,0 +1,9 @@
+CHANGELOG 0.8.6
+
+    You need to restart Sublime Text for the changes to work.
+
+    FIX: ved now leaves selection at the correct position.
+    FIX: ci( and similar commands now fail without entering insert mode.
+    REFACTOR: delete command.
+
+    Follow https://twitter.com/sublimesix for important notifications.
