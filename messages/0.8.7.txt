@@ -1,0 +1,8 @@
+CHANGELOG 0.8.7
+
+    You need to restart Sublime Text for the changes to work.
+
+    FIX: pasting over word in visual mode now leaves the caret at correct position.
+    FIX: >> on last line now indents only one line.
+
+    Follow https://twitter.com/sublimesix for important notifications.
