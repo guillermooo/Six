@@ -1,0 +1,17 @@
+CHANGELOG 0.8.8
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: enable repeating operations over reversed visual selections.
+
+        NOTE:
+
+            This does not include visual line selections yet.
+
+    FIX: gg in visual line mode.
+    FIX: correct caret position after entering normal mode from visual mode
+         when selection end was at eol.
+    FIX: correct caret position after deletion in visual line mode.
+    REFACTOR: delete command.
+
+    Follow https://twitter.com/sublimesix for important notifications.
