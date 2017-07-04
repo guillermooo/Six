@@ -457,5 +457,11 @@
 	{ "keys": ["down"],"command": "six_search_next_history_item", "context": [{"key": "selector", "operand": "text.six-search" }] },
 
 	{ "keys": ["ctrl+j"], "command": "auto_complete", "context": [{ "key": "auto_complete_visible", "operator": "equal", "operand": true }] },
-	{ "keys": ["ctrl+k"], "command": "move", "args": { "by": "lines", "forward": false }, "context": [{ "key": "auto_complete_visible", "operator": "equal", "operand": true }] }
+	{ "keys": ["ctrl+k"], "command": "move", "args": { "by": "lines", "forward": false }, "context": [{ "key": "auto_complete_visible", "operator": "equal", "operand": true }] },
+
+	{ "keys": ["ctrl+b"],"command": "move_to", "args": { "extend": false, "to": "bol" }, "context": [{"key": "selector", "operand": "text.six-ex" }] },
+	{ "keys": ["ctrl+e"],"command": "move_to", "args": { "extend": false, "to": "eol" }, "context": [{"key": "selector", "operand": "text.six-ex" }] },
+	{ "keys": ["ctrl+h"],"command": "six_cmdline_delete", "args": { "forward": false }, "context": [{"key": "selector", "operand": "text.six-ex" }] },
+	{ "keys": ["ctrl+w"],"command": "six_cmdline_delete", "args": { "extent": "word", "forward": false }, "context": [{"key": "selector", "operand": "text.six-ex" }] },
+	{ "keys": ["ctrl+u"],"command": "six_cmdline_delete", "args": { "extent": "bol", "forward": false }, "context": [{"key": "selector", "operand": "text.six-ex" }] },
 ]

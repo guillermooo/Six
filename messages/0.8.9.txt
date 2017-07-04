@@ -1,0 +1,15 @@
+CHANGELOG 0.8.9
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: gv now also restores the previous visual line mode selection. 
+    NEW: enable repeating of operations over reversed visual line selections.
+    NEW: implement some command-line editing commands:
+
+        - ctrl+b moves the caret to bol
+        - ctrl+e moves the caret to eol
+        - ctrl+u deletes to bol from caret
+        - ctrl+h deletes previous character
+        - ctrl+w deletes previous word
+
+    Follow https://twitter.com/sublimesix for important notifications.
