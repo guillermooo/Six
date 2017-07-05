@@ -1,0 +1,8 @@
+CHANGELOG 0.8.10
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: / and ? now are valid commands in :.
+    FIX: improve error reporting for / and : errors.
+
+    Follow https://twitter.com/sublimesix for important notifications.
