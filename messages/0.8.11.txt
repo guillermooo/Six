@@ -1,0 +1,17 @@
+CHANGELOG 0.8.11
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: implement z- for all modes
+    NEW: implement z. for visual line mode
+    NEW: implement z. for visual mode
+    NEW: implement z<CR> for visual line mode
+    NEW: implement z<CR> for visual mode
+    NEW: implement zb for all modes
+    NEW: implement zt for visual line mode
+    NEW: implement zt for visual mode
+    NEW: implement zz for visual line mode
+    NEW: implement zz for visual mode
+    FIX: ensure regions are highlighted after :/<pattern> command.
+
+    Follow https://twitter.com/sublimesix for important notifications.
