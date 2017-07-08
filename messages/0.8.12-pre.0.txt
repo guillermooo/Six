@@ -1,0 +1,12 @@
+CHANGELOG 0.8.12-pre.0
+
+    Please restart Sublime Text for the changes to work.
+
+    FIX: end position after d in visual line mode.
+    FIX: cG deletes last line.
+    FIX: S correctly operates on last line.
+    FIX: exiting visual line mode no longer causes Esc action to be executed twice.
+    REFACTOR: scroll commands.
+    REFACTOR: selection logic.
+
+    Follow https://twitter.com/sublimesix for important notifications.
