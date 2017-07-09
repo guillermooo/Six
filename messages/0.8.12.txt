@@ -1,0 +1,32 @@
+CHANGELOG 0.8.12
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: Multiple selection mode.
+    NEW: Multiple line selection mode.
+
+    NOTE:
+        To enter multiple selection mode, press gh.
+
+        Once in this mode, you can press j to add more items like with Ctrl+D, or k to remove the last one.
+
+        To exit multiple selection mode, press Esc.
+
+        To enter multiple line selection mode, press gH.
+
+        Once in this mode, you can press j or k to add more lines in the corresponding direction.
+
+        To exit multiple line selection mode, press Esc.
+
+        You cannot use editing operators in any of these modes. First, you need to switch to normal mode.
+
+        These modes exist in order to provide a Vim-like way of adding multiple selections.
+
+    FIX: end position after d in visual line mode.
+    FIX: cG deletes last line.
+    FIX: S correctly operates on last line.
+    FIX: exiting visual line mode no longer causes Esc action to be executed twice.
+    REFACTOR: scroll commands.
+    REFACTOR: selection logic.
+
+    Follow https://twitter.com/sublimesix for important notifications.
