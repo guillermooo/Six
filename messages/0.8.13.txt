@@ -1,0 +1,9 @@
+CHANGELOG 0.8.13
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: enable switching to visual mode (v) from multiple selection mode (gh).
+    FIX: selection orientation when switching from visual line mode to visual mode and
+         xpos is 0.
+
+    Follow https://twitter.com/sublimesix for important notifications.
