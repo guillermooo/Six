@@ -1,0 +1,7 @@
+CHANGELOG 0.8.14
+
+    Please restart Sublime Text for the changes to work.
+
+    FIX: repeating visual line operation.
+
+    Follow https://twitter.com/sublimesix for important notifications.
