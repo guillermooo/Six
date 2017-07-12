@@ -1,0 +1,8 @@
+CHANGELOG 0.8.15
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: <count>v
+    NEW: <count>V
+
+    Follow https://twitter.com/sublimesix for important notifications.
