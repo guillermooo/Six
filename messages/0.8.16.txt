@@ -1,0 +1,8 @@
+CHANGELOG 0.8.16
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: register /
+    NEW: register %
+
+    Follow https://twitter.com/sublimesix for important notifications.
