@@ -1,0 +1,8 @@
+CHANGELOG 0.8.17
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: register :
+    FIX: <count>c<motion> now does not repeat insert mode insertions.
+
+    Follow https://twitter.com/sublimesix for important notifications.
