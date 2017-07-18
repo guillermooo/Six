@@ -1,0 +1,7 @@
+CHANGELOG 0.8.18
+
+    Please restart Sublime Text for the changes to work.
+
+    FIX: dot and @ now abort as soon as a motion fails.
+
+    Follow https://twitter.com/sublimesix for important notifications.
