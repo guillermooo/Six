@@ -1,0 +1,13 @@
+CHANGELOG 0.8.19
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: enable Ctrl-[ to return to normal mode from insert mode.
+    NEW: enable Ctrl-[ to return to normal mode from multiple selection (gh) mode.
+    NEW: partial implementation of :reg[isters]/:dis[play] (display registers content).
+    FIX: i<bracket> in visual mode should not include opening bracket in selection.
+    FIX: a<bracket> in visual mode should include opening bracket in selection.
+    FIX: a<bracket> and i<bracket> motions now correctly store new xpos.
+    REFACTOR: rename class.
+
+    Follow https://twitter.com/sublimesix for important notifications.
