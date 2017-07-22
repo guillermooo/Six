@@ -1,0 +1,16 @@
+CHANGELOG 0.8.20
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: selecting an item in the :registers quick panel sets " to that item.
+    NEW: register + is synonym to * on all systems.
+    FIX: allow other plugins to selectively disable Six on some views via settings.
+
+    	NOTE:
+
+    		Added __vi_external_disable and __vi_external_disable_keys as they were in Vintageous.
+
+    FIX: improve :registers.
+    REFACTOR: refactor registers code and some tests.
+
+    Follow https://twitter.com/sublimesix for important notifications.
