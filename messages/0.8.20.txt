@@ -6,9 +6,9 @@ CHANGELOG 0.8.20
     NEW: register + is synonym to * on all systems.
     FIX: allow other plugins to selectively disable Six on some views via settings.
 
-    	NOTE:
+        NOTE:
 
-    		Added __vi_external_disable and __vi_external_disable_keys as they were in Vintageous.
+            Added __vi_external_disable and __vi_external_disable_keys as they were in Vintageous.
 
     FIX: improve :registers.
     REFACTOR: refactor registers code and some tests.

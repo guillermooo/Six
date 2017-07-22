@@ -1,0 +1,9 @@
+CHANGELOG 0.8.21
+
+    Please restart Sublime Text for the changes to work.
+
+    FIX: W when there's embedded punctuation in word.
+    FIX: B when there's embedded punctuation in word.
+    FIX: reindent after cc.
+
+    Follow https://twitter.com/sublimesix for important notifications.
