@@ -466,4 +466,9 @@
 	{ "keys": ["ctrl+h"],"command": "six_cmdline_delete", "args": { "forward": false }, "context": [{"key": "selector", "operand": "text.six-ex" }] },
 	{ "keys": ["ctrl+w"],"command": "six_cmdline_delete", "args": { "extent": "word", "forward": false }, "context": [{"key": "selector", "operand": "text.six-ex" }] },
 	{ "keys": ["ctrl+u"],"command": "six_cmdline_delete", "args": { "extent": "bol", "forward": false }, "context": [{"key": "selector", "operand": "text.six-ex" }] },
+
+	// Multiple Selection mode keys.
+	{ "keys": ["j"], "command": "find_under_expand", "context": [{ "key": "six_is_in_multiple_selection_mode" }] },
+	{ "keys": ["k"], "command": "soft_undo", "context": [{ "key": "six_is_in_multiple_selection_mode" }] },
+	{ "keys": ["l"], "command": "find_under_expand_skip", "context": [{ "key": "six_is_in_multiple_selection_mode" }] }
 ]
