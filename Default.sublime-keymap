@@ -458,6 +458,9 @@
 	{ "keys": ["up"],"command": "six_search_prev_history_item", "context": [{"key": "selector", "operand": "text.six-search" }] },
 	{ "keys": ["down"],"command": "six_search_next_history_item", "context": [{"key": "selector", "operand": "text.six-search" }] },
 
+	{ "keys": ["up"],"command": "six_command_line_prev_history_item", "context": [{"key": "selector", "operand": "text.six-ex" }] },
+	{ "keys": ["down"],"command": "six_command_line_next_history_item", "context": [{"key": "selector", "operand": "text.six-ex" }] },
+
 	{ "keys": ["ctrl+j"], "command": "auto_complete", "context": [{ "key": "auto_complete_visible", "operator": "equal", "operand": true }] },
 	{ "keys": ["ctrl+k"], "command": "move", "args": { "by": "lines", "forward": false }, "context": [{ "key": "auto_complete_visible", "operator": "equal", "operand": true }] },
 

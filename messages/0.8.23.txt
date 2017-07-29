@@ -3,7 +3,7 @@ CHANGELOG 0.8.23
     Please restart Sublime Text for the changes to work.
 
     FIX: show search hit in the center of the viewport if it's off the screen.
-    FIX: abort command line command is no views are active.
+    FIX: abort command line command if no views are active.
     FIX: multiple selection commands (gh) are now handled directly in Default.sublime-keymap.
 
         NOTE: This is necessary so that soft_undo and find_under_expand run as a window command.

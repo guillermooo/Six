@@ -1,0 +1,12 @@
+CHANGELOG 0.8.24
+
+    Please restart Sublime Text for the changes to work.
+
+    NEW: enable history navigation for command line commands (use up down when ex mode is active).
+    NEW: enable ability to switch from multiple selection mode (gh) to visual line mode.
+    NEW: enable ability to switch from multiple line selection mode (gH) to visual mode.
+    NEW: enable ability to switch from multiple line selection mode (gH) to visual line mode.
+    FIX: improve ability to disable plugin via view settings.
+    REFACTOR: delete and replay commands.
+
+    Follow https://twitter.com/sublimesix for important notifications.
