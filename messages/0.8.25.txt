@@ -1,0 +1,9 @@
+CHANGELOG 0.8.25
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: d when deleting around EOF (dd, dk, dj, dG).
+    FIX: off-by-one error in visual selection internal function operating on reversed selections.
+    REFACTOR: actions code (reuse helpers).
+
+    Follow https://twitter.com/sublimesix for important news about Six.
