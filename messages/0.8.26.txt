@@ -1,0 +1,8 @@
+CHANGELOG 0.8.26
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: function call in paste command (regression).
+    FIX: ensure dd deletes last line when it's empty (regression).
+
+    Follow https://twitter.com/sublimesix for important news about Six.
