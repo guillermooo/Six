@@ -1,0 +1,7 @@
+CHANGELOG 0.8.28
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: implement J for visual and visual line mode.
+
+    Follow https://twitter.com/sublimesix for important news about Six.
