@@ -1,0 +1,9 @@
+CHANGELOG 0.8.29
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: ip in normal mode (inner paragraph).
+    NEW: add ib, ab as synonyms of i(, a(.
+    FIX: J in normal mode when using multiple selections (joining and end position).
+
+    Follow https://twitter.com/sublimesix for important news about Six.
