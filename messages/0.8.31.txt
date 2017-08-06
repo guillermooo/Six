@@ -1,0 +1,8 @@
+CHANGELOG 0.8.31
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: ip in visual mode.
+    NEW: ip in visual line mode.
+
+    Follow https://twitter.com/sublimesix for important news about Six.
