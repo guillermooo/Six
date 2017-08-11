@@ -1,0 +1,7 @@
+CHANGELOG 0.8.33
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: r now accepts any character as input.
+
+    Follow https://twitter.com/sublimesix for important news about Six.
