@@ -1,0 +1,8 @@
+CHANGELOG 0.8.34
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: is (inner sentence) in normal mode.
+    NEW: is (inner sentence) in visual mode.
+
+    Follow https://twitter.com/sublimesix for important news about Six.
