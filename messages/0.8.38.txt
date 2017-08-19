@@ -1,0 +1,8 @@
+CHANGELOG 0.8.38
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: sentence detection in is, as.
+    REFACTOR: is text object.
+
+    Follow https://twitter.com/sublimesix for important news about Six.
