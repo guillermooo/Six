@@ -1,0 +1,9 @@
+CHANGELOG 0.8.39
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: W now does not skip next word started by punctuation.
+    FIX: <count>W now works better.
+    FIX: Several improvements to W in normal and operator pending mode.
+
+    Follow https://twitter.com/sublimesix for important notifications.
