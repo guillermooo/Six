@@ -1,0 +1,7 @@
+CHANGELOG 0.8.40
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: J now correctly joins lines preceded by a single tab or space.
+
+    Follow https://twitter.com/sublimesix for important notifications.
