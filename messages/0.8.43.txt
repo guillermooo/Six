@@ -1,7 +1,7 @@
-CHANGELOG 0.8.42
+CHANGELOG 0.8.43
 
     Sublime Text needs to be restarted for the changes to work.
 
-    NEW: implement } for visual mode.
+    NEW: implement } for visual line mode.
 
     Follow https://twitter.com/sublimesix for important notifications.
