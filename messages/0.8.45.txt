@@ -1,0 +1,8 @@
+CHANGELOG 0.8.45
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: exiting from visual line mode to normal mode on emtpy line.
+    NEW: { motion for visual and visual line mode. 
+
+    Follow https://twitter.com/sublimesix for important notifications.
