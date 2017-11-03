@@ -4,20 +4,20 @@ CHANGELOG 0.8.46
 
     NEW: gj and gk in normal mode.
 
-    	NOTES:
+        NOTES:
 
-    	Sublime Text offers no support for detecting wrapped lines from plugin
-    	code. As a result of this, gj and gk are implemented in terms of
-    	Sublime Text's native move commands for up and down line movement. In
-    	particular, this will break xpos calculation between motions; not a
-    	problem when you are moving across wrapped lines, but it becomes
-    	annoying if you cross a paragraph boundary.
+        Sublime Text offers no support for detecting wrapped lines from plugin
+        code. As a result of this, gj and gk are implemented in terms of
+        Sublime Text's native move commands for up and down line movement. In
+        particular, this will break xpos calculation between motions; not a
+        problem when you are moving across wrapped lines, but it becomes
+        annoying if you cross a paragraph boundary.
 
-    	gj and gk motions are only available in normal mode, as they cannot
-    	guarantee the degree of motion accuracy required by other modes. (An
-    	implementation for visual mode with the same quirks as the normal mode
-    	implementation should however be possible and available in the
-    	future.)
+        gj and gk motions are only available in normal mode, as they cannot
+        guarantee the degree of motion accuracy required by other modes. (An
+        implementation for visual mode with the same quirks as the normal mode
+        implementation should however be possible and available in the
+        future.)
 
     REFACTOR: { and } command code.
 

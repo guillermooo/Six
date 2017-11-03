@@ -1,0 +1,8 @@
+CHANGELOG 0.8.47
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: reversed visual line selections should always be repeated
+         as visual line selections oriented forward.
+
+    Follow https://twitter.com/sublimesix for important notifications.
