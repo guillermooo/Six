@@ -1,0 +1,21 @@
+CHANGELOG 0.8.49
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: enable i_CTRL-C (ctrl+c in insert mode).
+
+        NOTES:
+
+            This key binding will override the ability to copy text on Windows
+            in insert mode if `enable_ctrl_keys` is set to `True` via the Six
+            settings file (see Command Palette entry).
+
+            If you prefer the standard Windows behavior, you can create the following key
+            binding for it in your User/Default.sublime-keymap file:
+
+            { "keys": ["ctrl+c"], "command": "copy" }
+
+    FIX: swith to normal mode if the user clicks on the view while in
+         multile selection (gh) or multitple line selection (gH) modes.
+
+    Follow https://twitter.com/sublimesix for important notifications.

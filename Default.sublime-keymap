@@ -2,10 +2,11 @@
 	// XXX: Temporary. Delete this when you don't need it any more.
 	{"keys": ["shift+escape"], "command": "vim_toggle_mode" },
 
-	{"keys": ["escape"], "command": "six_press_key",			"args": {"key": "<Esc>"},			"context": [{"key": "six_is_in_command_mode"}]},
-	{"keys": ["ctrl+["], "command": "six_press_key",			"args": {"key": "<Esc>"},			"context": [{"key": "six_is_in_command_mode"}]},
-	{"keys": ["escape"], "command": "six_press_key",			"args": {"key": "<Esc>"},			"context": [{"key": "six_is_in_insert_mode"}]},
-	{"keys": ["ctrl+["], "command": "six_press_key",			"args": {"key": "<Esc>"},			"context": [{"key": "six_is_in_insert_mode"}]},
+	{"keys": ["escape"], "command": "six_press_key", "args": {"key": "<Esc>"}, "context": [{"key": "six_is_in_command_mode"}]},
+	{"keys": ["ctrl+["], "command": "six_press_key", "args": {"key": "<Esc>"}, "context": [{"key": "six_is_in_command_mode"}]},
+
+	{"keys": ["escape"], "command": "six_press_key", "args": {"key": "<Esc>"}, "context": [{"key": "six_is_in_insert_mode"}]},
+	{"keys": ["ctrl+["], "command": "six_press_key", "args": {"key": "<Esc>"}, "context": [{"key": "six_is_in_insert_mode"}]},
 	// {"vi_use_ctrl_keys": ["escape"], "command": "_enter_normal_mode", 	"args": {"mode": "mode_insert"},	"context": [{"key": "six_is_in_insert_mode"}]},
 
 	{"keys": ["enter"],				"command": "six_press_key", "args": {"key": "<CR>"},		"context": [{"key": "six_is_in_command_mode"}]},
@@ -13,7 +14,8 @@
 	// {"keys": ["shift+enter"],		"command": "press_key", "args": {"key": "<S-cr>"},		"context": [{"key": "six_is_in_command_mode"}]},
 	// {"keys": ["shift+ctrl+enter"],	"command": "press_key", "args": {"key": "<C-S-cr>"},	"context": [{"key": "six_is_in_command_mode"}]},
 
-	// {"keys": ["ctrl+c"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "six_is_in_insert_mode"}, {"key": "vi_use_ctrl_keys"}]},
+	// TODO: i_CTRL-C has further implications.
+	{"keys": ["ctrl+c"], "command": "six_press_key", "args": {"key": "<Esc>"}, "context": [{"key": "six_is_in_insert_mode"}, {"key": "six_enable_ctrl_keys"}]},
 
 	// {"keys": ["ctrl+w"], "command": "delete_word", "args": {"forward": false}, "context": [{"key": "six_is_in_insert_mode"}, {"key": "vi_use_ctrl_keys"}]},
 
