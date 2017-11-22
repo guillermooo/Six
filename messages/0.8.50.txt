@@ -1,0 +1,13 @@
+CHANGELOG 0.8.50
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: initial support for :s[ubstitute] command.
+
+        NOTES:
+            :s operates exclusively on the current line.
+
+            The Python regex syntax is used.
+
+
+    Follow https://twitter.com/sublimesix for important notifications.
