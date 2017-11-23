@@ -1,0 +1,8 @@
+CHANGELOG 0.8.51
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: allow % range in :substitute command
+    FIX: c flag in :s/aaa/bbb/c
+
+    Follow https://twitter.com/sublimesix for important notifications.
