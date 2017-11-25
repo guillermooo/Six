@@ -1,0 +1,11 @@
+CHANGELOG 0.8.53
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: empty command line in ex mode does nothing
+    FIX: ~ command correctly swaps case now
+    NEW: implement ~ for visual mode
+    NEW: implement ~ for visual line mode
+    REFACTOR: ex mode handler
+
+    Follow https://twitter.com/sublimesix for important notifications.

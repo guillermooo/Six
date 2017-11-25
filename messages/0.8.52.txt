@@ -1,4 +1,4 @@
-CHANGELOG 0.8.51
+CHANGELOG 0.8.52
 
     Sublime Text needs to be restarted for the changes to work.
 
