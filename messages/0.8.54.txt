@@ -1,0 +1,12 @@
+CHANGELOG 0.8.54
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: basic support for :s in visual mode
+    NEW: basic support for :s in visual line mode
+    INTERNAL: f unavailable in visual line mode due to ST limitations
+    REFACTOR: unify ex mode command handlers
+    REFACTOR: ex mode way of collecting input
+    REFACTOR: ~ command
+
+    Follow https://twitter.com/sublimesix for important notifications.
