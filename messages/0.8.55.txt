@@ -1,0 +1,8 @@
+CHANGELOG 0.8.55
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: improve fidelity of `is` motion (visual mode) when starting from an
+         line.
+
+    Follow https://twitter.com/sublimesix for important notifications.
