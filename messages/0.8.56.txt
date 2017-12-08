@@ -1,8 +1,7 @@
-CHANGELOG 0.8.55
+CHANGELOG 0.8.56
 
     Sublime Text needs to be restarted for the changes to work.
 
-    FIX: improve fidelity of `is` motion (visual mode) when starting from an
-         empty line.
+    FIX: typo in ~ command implementation that was causing an exception.
 
     Follow https://twitter.com/sublimesix for important notifications.
