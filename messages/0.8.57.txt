@@ -1,0 +1,10 @@
+CHANGELOG 0.8.57
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: improve is text object (visual mode) when starting from a minimal selection.
+    FIX: make basic :wq command work again.
+    FIX: supress scrolling into view after :wq command.
+    FIX: handle 'not implemented error' gracefully in normal mode.
+
+    Follow https://twitter.com/sublimesix for important notifications.
