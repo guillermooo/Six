@@ -1,0 +1,8 @@
+CHANGELOG 0.8.60
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: improve is motion when starting from reversed wide selection (visual mode)
+    REFACTOR: is motion (visual mode)
+
+    Follow https://twitter.com/sublimesix for important notifications.
