@@ -1,0 +1,9 @@
+CHANGELOG 0.8.62
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: ensure <C-r> does not leave the selection beyond eof
+    FIX: cw when selection is at whitespace between words
+    REFACTOR: w motion
+
+    Follow https://twitter.com/sublimesix for important notifications.
