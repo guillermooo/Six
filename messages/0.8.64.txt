@@ -1,0 +1,9 @@
+CHANGELOG 0.8.64
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Improve search term extraction for * and # searches
+    FIX: The ap motion from visual mode sometimes needs to make the new
+         selection's begin sticky.
+
+    Follow https://twitter.com/sublimesix for important notifications.
