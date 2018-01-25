@@ -1,0 +1,10 @@
+CHANGELOG 0.8.65
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: temporarily implement `as` motion as synonym of `is`.
+    FIX: `is` behavior when starting from EOF (visual mode).
+    FIX: Exit early for large counts of `w`.
+    REFACTOR: `w` motion.
+
+    Follow https://twitter.com/sublimesix for important notifications.
