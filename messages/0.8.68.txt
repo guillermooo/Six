@@ -1,0 +1,7 @@
+CHANGELOG 0.8.68
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Fixes for `is`, `as` text objects (visual mode).
+
+    Follow https://twitter.com/sublimesix for important notifications.
