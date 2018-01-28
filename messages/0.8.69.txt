@@ -1,0 +1,7 @@
+CHANGELOG 0.8.69
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Improve more edge cases for the `is` and `as` text objects.
+
+    Follow https://twitter.com/sublimesix for important notifications.
