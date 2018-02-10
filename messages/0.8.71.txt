@@ -1,0 +1,7 @@
+CHANGELOG 0.8.71
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Make is/as text object algorithm more similar to C implementation (visual mode).
+
+    Follow https://twitter.com/sublimesix for important notifications.
