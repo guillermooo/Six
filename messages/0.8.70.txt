@@ -1,0 +1,7 @@
+CHANGELOG 0.8.70
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Port Vim as/is motions line by line (operator pending mode).
+
+    Follow https://twitter.com/sublimesix for important notifications.
