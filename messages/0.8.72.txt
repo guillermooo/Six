@@ -1,0 +1,10 @@
+CHANGELOG 0.8.72
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Use xpos 0 when no selections are available.
+    FIX: Keep visual mode active when switching back from external app.
+    REFACTOR: Editor sync event.
+    REFACTOR: SelectionState.
+
+    Follow https://twitter.com/sublimesix for important notifications.
