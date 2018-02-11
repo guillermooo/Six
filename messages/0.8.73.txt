@@ -1,0 +1,9 @@
+CHANGELOG 0.8.73
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    REFACTOR: Group event listeners in own directory.
+    REFACTOR: Delegate code responsible for mutating NormalModeHandler state to specialized visitors.
+    INFRASTRUCTURE: Disable Linux CI tests (cannot install Xvfb).
+
+    Follow https://twitter.com/sublimesix for important notifications.
