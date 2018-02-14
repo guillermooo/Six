@@ -1,0 +1,8 @@
+CHANGELOG 0.8.74-dev.2
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Fix null error when :q closes the last view.
+    FIX: Some regressions after refactoring.
+
+    Follow https://twitter.com/sublimesix for important notifications.
