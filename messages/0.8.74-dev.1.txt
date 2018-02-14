@@ -1,0 +1,17 @@
+CHANGELOG 0.8.74-dev.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Show caret at init time if it's off the screen.
+    REFACTOR: NormalModeHandler.eval() to simplify code.
+    REFACTOR: NormalModeHandler.enter() to simplify code.
+    REFACTOR: Rename functions.
+    REFACTOR: ExModeHandler.enter() to simplify code.
+    REFACTOR: ExModeHandler.eval() to simplify code.
+    REFACTOR: ExModeHandler.process() to simplify code.
+    REFACTOR: VisualModeHandler.enter() to simplify code.
+    REFACTOR: VisualModeHandler.eval() to simplify code.
+    REFACTOR: Editor.handle() to simplify code.
+    REFACTOR: Editor.repeat_insert_mode() to simplify code.
+
+    Follow https://twitter.com/sublimesix for important notifications.
