@@ -1,0 +1,9 @@
+CHANGELOG 0.8.74-dev.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Reimplement w/W motions based on C implementation.
+    REFACTOR: SublimeCaret.select() to simplifiy code and add custom selection behavior
+              based on motion type.
+
+    Follow https://twitter.com/sublimesix for important notifications.
