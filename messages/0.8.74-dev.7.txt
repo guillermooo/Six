@@ -1,0 +1,7 @@
+CHANGELOG 0.8.74-dev.7
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Reimplement ge/gE motions based on Vim C implementation (almost line-by-line).
+
+    Follow https://twitter.com/sublimesix for important notifications.
