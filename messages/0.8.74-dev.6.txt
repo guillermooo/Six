@@ -1,0 +1,8 @@
+CHANGELOG 0.8.74-dev.6
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Reimplement iw/aw text object based on Vim C implementation (almost line-by-line).
+    TESTS: Improve tests.
+
+    Follow https://twitter.com/sublimesix for important notifications.
