@@ -1,0 +1,36 @@
+CHANGELOG 0.8.80
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    This is a cumulative release. If you are subscribed to dev builds, you should not
+    notice any changes (except for potential regressions due to extensive refactorings
+    in this build). If you want to subscribe to dev builds, check out the Package
+    Control documentation.
+
+    NEW: Port Vim C helpers to Python.
+    NEW: Reimplement b/B motions based on Vim C implementation (almost line by line).
+    NEW: Reimplement e/E motions based on Vim C implementation (almost line by line).
+    NEW: Reimplement ge/gE motions based on Vim C implementation (almost line by line).
+    NEW: Reimplement [ia][wW] text object based on Vim C implementation (almost line by line).
+    NEW: Reimplement w/W motions based on C implementation (almost line by line).
+    NEW: Show caret at init time if it's off the screen.
+    FIX: Fix null error when :q closes the last view.
+    FIX: Generalize `<count>ce` quirks for other motions to use.
+    FIX: Improve selection accuracy for some motions (progressive enhancement for all motions).
+    FIX: Some regressions after multiple refactorings.
+    REFACTOR: Abstract out common code for word/word-end-based motions.
+    REFACTOR: Rename functions.
+    REFACTOR: Simplify Editor.handle().
+    REFACTOR: Simplify Editor.repeat_insert_mode().
+    REFACTOR: Simplify ExModeHandler.enter().
+    REFACTOR: Simplify ExModeHandler.eval().
+    REFACTOR: Simplify ExModeHandler.process().
+    REFACTOR: Simplify NormalModeHandler.enter().
+    REFACTOR: Simplify NormalModeHandler.eval().
+    REFACTOR: Simplify SublimeCaret.select().
+    REFACTOR: Simplify VisualModeHandler.enter().
+    REFACTOR: Simplify VisualModeHandler.eval().
+    REFACTOR: Unify implementation of word/word-end-based motions.
+    TESTS: Improve test coverage.
+
+    Follow https://twitter.com/sublimesix for important notifications.
