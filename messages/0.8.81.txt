@@ -1,0 +1,10 @@
+CHANGELOG 0.8.81
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Ex Mode - The :q and :wq commands now close the window if they are used on the last view.
+    NEW: Visual Line Mode - Enable iW/aW text objects.
+    FIX: Ex Mode - Do not show input panel after : if the input is not interactive.
+    FIX: Ex Mode - Enable ex mode for transient views.
+
+    Follow https://twitter.com/sublimesix for important notifications.
