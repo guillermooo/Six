@@ -1,0 +1,8 @@
+CHANGELOG 0.8.82
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Ex Mode - :wq/:q on the last view now close just the active window as
+         opposed to exiting the application.
+
+    Follow https://twitter.com/sublimesix for important notifications.
