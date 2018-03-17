@@ -1,0 +1,13 @@
+CHANGELOG 0.8.83
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Reimplement as/is text objects (line-by-line port of Vim C implementation).
+
+        NOTE:
+            A few issues remain to be fixed.
+
+    FIX: Fixes for internal APIs.
+    INFRASTRUCTURE: Add debugging helpers.
+
+    Follow https://twitter.com/sublimesix for important notifications.
