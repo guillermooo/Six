@@ -1,0 +1,8 @@
+CHANGELOG 0.8.84
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Enable is/as in visual line mode.
+    FIX: Improve is/as Python port from Vim C.
+
+    Follow https://twitter.com/sublimesix for important notifications.
