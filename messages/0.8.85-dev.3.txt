@@ -1,0 +1,7 @@
+CHANGELOG 0.8.85-dev.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Port ip/ap text objects from Vim C implemenation (almost line-by-line).
+
+    Follow https://twitter.com/sublimesix for important notifications.
