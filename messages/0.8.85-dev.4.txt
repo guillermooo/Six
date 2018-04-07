@@ -1,0 +1,8 @@
+CHANGELOG 0.8.85-dev.4
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Improve Python port of ip/ap.
+    FIX: Improve selection logic for linewise normal mode.
+
+    Follow https://twitter.com/sublimesix for important notifications.
