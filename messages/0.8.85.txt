@@ -1,0 +1,15 @@
+CHANGELOG 0.8.85
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Avoid error in first window when closing second window opened via subl -nw command line.
+         This unbreaks the workflow of using Sublime Text with Six as your $EDITOR for git, etc.
+    FIX: Improve selection logic for linewise normal mode.
+    FIX: Port ip/ap text objects from Vim C implemenation (almost line by line).
+    REFACTOR: Further formalize notion of motion.
+    REFACTOR: Improve logging.
+    REFACTOR: Reorganize Vim ports.
+    REFACTOR: Unify implementation of Operator classes.
+    REFACTOR: Unify OperatorOrMotion and Namespace classes.
+
+    Follow https://twitter.com/sublimesix for important notifications.
