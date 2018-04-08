@@ -1,0 +1,8 @@
+CHANGELOG 0.8.85-dev.8
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Avoid error in first window when closing second window opened via
+         subl -nw command line.
+
+    Follow https://twitter.com/sublimesix for important notifications.
