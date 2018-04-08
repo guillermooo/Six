@@ -1,0 +1,9 @@
+CHANGELOG 0.8.85-dev.6
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    REFACTOR: Improve logging.
+    FIX: Make log classes fully transparent to code expecting corresponding
+         underlying interfaces.
+
+    Follow https://twitter.com/sublimesix for important notifications.
