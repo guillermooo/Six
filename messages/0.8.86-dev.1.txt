@@ -1,0 +1,15 @@
+CHANGELOG 0.8.86-dev.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Add basic support for Vim-style options.
+
+        NOTES:
+
+        This is a first step for implementing Vim-style options. No
+        functionality is directly exposed to users yet.
+
+    FIX: r operator now aborts on <Esc>.
+    INTERNAL: Improve logging.
+
+    Follow https://twitter.com/sublimesix for important notifications.

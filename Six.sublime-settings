@@ -15,5 +15,11 @@
 	"enable_smart_case": false,
 
 	// If true, buffer searches will wrap around the edges.
-	"enable_search_wrap": true
+	"enable_search_wrap": true,
+
+	// Vim global options. Experimental -- do not override.
+	"options": {
+		"tildeop": false,
+		"list": false
+	}
 }
