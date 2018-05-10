@@ -9,5 +9,4 @@ CHANGELOG 0.8.86-dev.1
 
         Options are not exposed to users yet and should not be edited.
 
-
     Follow https://twitter.com/sublimesix for important notifications.

@@ -1,0 +1,7 @@
+CHANGELOG 0.8.86-dev.2
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: minor fixes.
+
+    Follow https://twitter.com/sublimesix for important notifications.
