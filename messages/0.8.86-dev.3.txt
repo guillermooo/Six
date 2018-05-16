@@ -1,0 +1,17 @@
+CHANGELOG 0.8.86-dev.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Enable <Tab> key. For example, in df<Tab>.
+    NEW: Partial implementation of :nmap command.
+
+    NOTES:
+        You can add normal mode mappings with
+            :nmap lhs rhs
+        and you can make Six display added mappings with
+            :nmap
+
+        Mappings are not yet expanded or used in any way other than described.
+        Also, they are not persisted between Sublime Text sessions.
+
+    Follow https://twitter.com/sublimesix for important notifications.
