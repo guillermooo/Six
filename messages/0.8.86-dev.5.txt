@@ -1,0 +1,58 @@
+CHANGELOG 0.8.86-dev.5
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Enable mapping expansion in normal mode.
+
+    NOTES:
+
+        Mapping functionality is a work in progress and it isn't fully
+        functional.
+
+        When debugging mappings, keep in mind that you now have to consider
+        both Sublime Text mappings and Six mappings. They may interact in
+        undesired ways if you have the same mapping defined as both a native
+        Sublime Text mapping and a Six mapping.
+
+        You can now define mappings in normal mode using:
+
+            :nmap lhs rhs
+
+        You can see the currently available mappings with the following
+        command:
+
+            :nmap
+
+        Example:
+
+            :nmap ,d /Debug<CR>
+
+        The previous mapping causes ,d to expand to /Debug<CR> in normal mode.
+        This way, you can perform that search with few keystrokes.
+
+        You can create mappings for ex mode commands too.
+
+        Example:
+
+            :nmap ,r :reg<CR>
+            :nmap <Space> :
+
+        At the moment, you cannot create mappings that interact with insert mode.
+
+        Mappings are not persisted across Sublime Text sessions. There is no way
+        to have mappings defined at start-up. These features are planned, but not
+        available yet.
+
+        Well, actually, there is an _unsupported_ way of defining maps at
+        start-up. You can add mappings using a Python file in your User
+        folder. It should contain something along these lines:
+
+                from Six._init_ import editor
+                from Six.lib.constants import Mode
+
+                editor.mappings.add(Mode.Normal, 'Y', 'y$')
+
+        However, this may break at any time as work on the mapping
+        functionality progresses.
+
+    Follow https://twitter.com/sublimesix for important notifications.
