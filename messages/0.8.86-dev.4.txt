@@ -1,0 +1,10 @@
+CHANGELOG 0.8.86-dev.4
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Fix crashes due to newly added key processing code for mappings.
+
+    NOTES:
+        Mappings are still unavailable for users.
+
+    Follow https://twitter.com/sublimesix for important notifications.
