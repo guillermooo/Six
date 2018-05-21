@@ -1,0 +1,7 @@
+CHANGELOG 0.8.86-dev.7
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Show partial mappings in the status bar.
+
+    Follow https://twitter.com/sublimesix for important notifications.
