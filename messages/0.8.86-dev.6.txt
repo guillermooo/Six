@@ -1,0 +1,9 @@
+CHANGELOG 0.8.86-dev.6
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Improve string formatting for existing maps.
+    FIX: Show mappings for a given prefix (:nmap <prefix>).
+    REFACTOR: Refactor data structures used for storing maps.
+
+    Follow https://twitter.com/sublimesix for important notifications.
