@@ -1,0 +1,9 @@
+CHANGELOG 0.8.86-dev.8
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Do not expand mappings in operator pending mode.
+    FIX: Abort after failed mapping resolution for long mapping.
+    REFACTOR: Abstract out mapping resolver.
+
+    Follow https://twitter.com/sublimesix for important notifications.
