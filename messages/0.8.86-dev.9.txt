@@ -1,0 +1,10 @@
+CHANGELOG 0.8.86-dev.9
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Improve cancellation of invalid long mappings.
+    NEW: Promote Operator Pending mode to explicit pseudomode.
+    REFACTOR: Simplify compositional root.
+    REFACTOR: Mode handlers now have access to Editor.
+
+    Follow https://twitter.com/sublimesix for important notifications.
