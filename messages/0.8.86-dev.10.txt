@@ -1,0 +1,11 @@
+CHANGELOG 0.8.86-dev.10
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Mappings defined via :nmap can now interact with insert mode.
+    NEW: Colorize :nmap mappings output.
+    FIX: , and ; motions now correctly abort if no search string is available.
+    FIX: Fix parsing :nm[a][p] as :nmap.
+    REFACTOR: Refactor key handling mechanism and mappings resolver.
+
+    Follow https://twitter.com/sublimesix for important notifications.
