@@ -1,0 +1,7 @@
+CHANGELOG 0.8.86-dev.11
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Include missing files in build.
+
+    Follow https://twitter.com/sublimesix for important notifications.

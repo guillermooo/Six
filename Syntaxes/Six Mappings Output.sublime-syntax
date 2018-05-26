@@ -1,0 +1,15 @@
+%YAML 1.2
+---
+name: Six Mapping Output
+scope: text.six-mapping-output
+hidden: true
+
+contexts:
+  main:
+    - match: '<'
+      push: notation
+
+  notation:
+    - meta_scope: constant.character.notation
+    - match: '>'
+      pop: true
