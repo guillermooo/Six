@@ -1,0 +1,10 @@
+CHANGELOG 0.8.86-dev.12
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Abort mapping execution as soon as an error occurs.
+    FIX: Decode lhs before processing mappings; use sequences
+         of Vim keys, not characters.
+    INFRASTRUCTURE: Improve CI/CD pipeline.
+
+    Follow https://twitter.com/sublimesix for important notifications.
