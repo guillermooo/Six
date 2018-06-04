@@ -1,0 +1,96 @@
+CHANGELOG 0.8.86
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: The :nmap [<lhs>] [<rhs>] command is now available.
+
+        NOTES:
+            The key mapping functionality in Six is a work in progress and it
+            isn't fully functional compared to Vim.
+
+            You can define (non-recursive) mappings in normal mode through
+            :nmap. Mappings defined in this way can interact with other modes,
+            including insert mode and ex mode. However, very complicated mappings
+            may not execute correctly. Mappings are global and cannot be scoped
+            to file types, etc.
+
+            When debugging mappings, keep in mind that you now have to consider
+            both Sublime Text mappings and Six mappings. They may interact in
+            undesired ways with each other if you have the same mapping defined as
+            both a native Sublime Text mapping and a Six mapping. Normally, the
+            Six mapping should take precedence due to the use of contexts in the
+            Six key map.
+
+            Example of mappings that work in this release:
+
+                :nmap <Space> :
+                :nmap Y y$
+                :nmap ,i iHello World!<Esc>
+                :nmap ,sd /^ *def <CR>
+                :nmap ,s,d ?^ *def <CR>
+                :nmap ,sc /^class<CR>
+                :nmap ,s,c ?^class<CR>
+
+            If the concept of Vim mappings is new to you, mappings are useful to
+            repeat long sequences of key strokes with a shorthand command.
+            Usually, mappings are prefixed with a 'leader' key (frequently, the
+            comma [,] character). Six does not currently understand the notion of
+            <Leader> internally, but you can use a leader key explicitly, as in
+            the examples above.
+
+            You can check existing mappings with :nmap (no arguments).
+
+            Mappings are not persisted across Sublime Text sessions. There is no way
+            to have mappings defined at start-up. These features are planned, but not
+            available yet.
+
+            Well, actually, there is an _unsupported_ way of defining maps at
+            start-up. You can add mappings using a Python file in your User
+            folder. It should contain something along these lines:
+
+                # Note that the following code will fail if Six is not present.
+                import sublime
+
+                def plugin_loaded():
+                    settings = sublime.load_settings('Preferences.sublime-settings')
+
+                    # Define mappings if Six is enabled.
+                    if 'Six' not in settings.get('ignored_packages'):
+                        from Six._init_ import editor
+                        from Six.lib.constants import Mode
+
+                        editor.mappings.add(Mode.Normal, 'Y', 'y$')
+                        editor.mappings.add(Mode.Normal, ',sd', '/^ *def <CR>')
+                        editor.mappings.add(Mode.Normal, ',s,d', '?^ *def <CR>')
+                        editor.mappings.add(Mode.Normal, ',sc', '/^class<CR>')
+                        editor.mappings.add(Mode.Normal, ',s,c', '?^class<CR>')
+                        editor.mappings.add(Mode.Normal, '<Space>', ':')
+
+            However, this method may break at any time as work on the mapping
+            functionality progresses.
+
+    NEW: Implement basic support for Vim options.
+
+        NOTES:
+            Options are not exposed to users yet and should not be edited.
+
+    NEW: :nmapclear command. Clears mappings defined with :nmap.
+    NEW: :nunmap <lhs> command. Unmaps <lhs> mapping.
+    NEW: Enable <Tab> key. For example, in df<Tab>.
+    NEW: Promote Operator Pending mode to explicit pseudomode.
+    FIX: , and ; motions now correctly abort if no previous search string is available.
+    FIX: r operator now aborts on <Esc>.
+    FIX: Return to normal mode from ex mode if ex mode processing fails.
+    REFACTOR: Abstract out mapping resolver.
+    REFACTOR: Delegate error handling to Editor class.
+    REFACTOR: Handlers now share the .editor field with their base class.
+    REFACTOR: Mode handlers now have access to Editor.
+    REFACTOR: Move identical concrete Handler.process() code to base class.
+    REFACTOR: Rearrange code.
+    REFACTOR: Refactor data structures used for storing maps.
+    REFACTOR: Refactor key handling mechanism and mappings resolver.
+    REFACTOR: Simplify compositional root.
+    INFRASTRUCTURE: Improve CI/CD pipeline.
+    INFRASTRUCTURE: Test CI scripts on CI server.
+
+    Follow https://twitter.com/sublimesix for important notifications.
