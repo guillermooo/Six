@@ -1,0 +1,26 @@
+CHANGELOG 0.8.86-dev.20180604.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    (Cumulative release.)
+    
+    NEW: Add :nmapclar command to clear normal mode mappings.
+    NEW: Add :nunmap command to remove mappings added with :nmap.
+    NEW: Colorize :nmap mappings output.
+    NEW: Mappings defined via :nmap can now interact with insert mode.
+    NEW: Promote Operator Pending mode to explicit pseudomode.
+    FIX: , and ; motions now correctly abort if no search string is available.
+    FIX: Abort mapping execution as soon as an error occurs.
+    FIX: Decode lhs before processing mappings; use sequences of Vim keys, not characters.
+    FIX: Do not expand mappings in operator pending mode.
+    FIX: Fix parsing :nm[a][p] as :nmap.
+    FIX: Improve cancellation of invalid long mappings.
+    FIX: Return to normal mode from ex mode if ex mode processing fails.
+    FIX: Show partial mappings in the status bar.
+    REFACTOR: Abstract out mapping resolver.
+    REFACTOR: Mode handlers now have access to Editor.
+    REFACTOR: Refactor key handling mechanism and mappings resolver.
+    REFACTOR: Simplify compositional root.
+    INFRASTRUCTURE: Improve CI/CD pipeline.
+
+    Follow https://twitter.com/sublimesix for important notifications.
