@@ -1,0 +1,9 @@
+CHANGELOG 0.8.87
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Process key strokes as Vim keys, translate to characters only on output.
+    FIX: Capture 'q' in macros when Six is accepting character input.
+    FIX: Enable characters +, \, ! and & in single-character searches.
+
+    Follow https://twitter.com/sublimesix for important notifications.
