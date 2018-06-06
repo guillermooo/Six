@@ -1,0 +1,22 @@
+CHANGELOG 0.8.88-dev.00.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Add dot icon next to matching line in slash incremental search to
+         increase match visibility.
+    FIX: Extraneous selections in normal mode now cause SilentCommandError.
+
+        NOTE: 
+
+            If you use 'native' Sublime Text commands, such as GoTo Definition
+            (Ctrl+q or Ctrl+Shift+q in Six), you may inadvertently create a non-empty
+            selection region while in normal mode. This state is illegal in normal
+            mode. Up to now, the normal mode handler would accept commands in this
+            state and ignore the selection. From this build on, a SilentCommandError
+            is raised, the selection is collapsed, the user is given visual feedbar
+            and the command is aborted.
+
+            The exception is if you try to enter visual mode. In this case, the selection
+            is preserved and no error is raised.
+
+    Follow https://twitter.com/sublimesix for important notifications.
