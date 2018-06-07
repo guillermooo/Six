@@ -1,0 +1,27 @@
+CHANGELOG 0.8.89
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: The <count>G/<count>gg motions now work again in visual mode.
+    FIX: Do not append <Esc> key to already complete command before repeating
+         it with the dot operator (.).
+    FIX: Allow six_press_key to receive a list of keys for backwards-compatibility
+         with existing key bindings defined in a .sublime-keymap file.
+
+         NOTE:
+             The preferred way to add key bindings to Six in normal mode is
+             through the :nmap command. Please refer to the 0.8.88 release
+             notes for more information.
+
+         CORRECTION:
+             Previously, I mentioned that, in case of having the same keys bound
+             in two different ways (through a .sublime-keymap file and as a Vim
+             mapping through :nmap), the Vim mapping would take precedence. The
+             opposite is true. Because the .sublime-keymap will most likely be
+             evaluated before Six has a chance to capture the key stroke, the
+             'native' binding will take precedence. This is important to know
+             when you are debugging key bindings/mappings. As mentioned above,
+             since version 0.8.88 it's best if you define normal mode mappings
+             using the :nmap command in Six and abandon .sublime-keymap files.
+
+    Follow https://twitter.com/sublimesix for important notifications.
