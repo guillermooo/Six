@@ -1,0 +1,9 @@
+CHANGELOG 0.8.90-dev.00.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: q now aborts if an invalid name register is given to it.
+    FIX: r now replaces in visual and visual line mode.
+    FIX: Do not expand mappings when Six is accpeting character input.
+
+    Follow https://twitter.com/sublimesix for important notifications.
