@@ -1,0 +1,13 @@
+CHANGELOG 0.8.90-dev.00.2
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Highlight current search term in / motion if there is no match.
+    NEW: Apply Regular Expressions syntax definition to / motion view.
+    FIX: Let exceptions in visual line mode handler bubble up so UI updating gets
+         taken care of by Editor.
+    FIX: Capture insert mode operations for repeating while expanding a mapping.
+    FIX: Last full command of a mapping now becomes the dot operator command for
+         repeating.
+
+    Follow https://twitter.com/sublimesix for important notifications.

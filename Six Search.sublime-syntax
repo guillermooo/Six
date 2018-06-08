@@ -6,5 +6,5 @@ hidden: true
 
 contexts:
   main:
-    - match: .*
-      scope: text.six-search
+    - match: ""
+      push: "Packages/Regular Expressions/RegExp.sublime-syntax"
