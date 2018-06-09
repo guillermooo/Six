@@ -1,0 +1,9 @@
+CHANGELOG 0.8.90-dev.00.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: If there are selections present in insert mode, Esc switches directly to visual mode.
+    NEW: Command line mode now completes available command names.
+    FIX: Enable " reqister for q operator.
+
+    Follow https://twitter.com/sublimesix for important notifications.
