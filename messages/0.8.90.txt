@@ -1,0 +1,59 @@
+CHANGELOG 0.8.90
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    *********************************************************************************
+    ~ ANNOUNCEMENT ~
+
+    There is now a Surround plugin for Sublime Six under development!
+
+    https://github.com/SublimeSix/plugin-surround
+
+    This plugin will serve as a testing ground for plugin implementation.
+    Surround is a work in progress and open source.
+    *********************************************************************************
+
+    NEW: Highlight current search term in / motion if there is no match.
+    NEW: Apply Regular Expressions syntax definition to / motion view.
+    NEW: If there are selections present in insert mode, Esc switches directly to visual mode.
+    NEW: Command line mode now completes available command names.
+    FIX: Raise AbortCommandError from normal mode if command cannot be found.
+    FIX: Enable " register for q operator.
+    FIX: Let exceptions in visual line mode handler bubble up so UI updating gets
+         taken care of by Editor.
+    FIX: Capture insert mode operations for repeating while expanding a mapping.
+    FIX: Last full command of a mapping now becomes the dot operator command for
+         repeating.
+    FIX: q now aborts if an invalid name register is given to it.
+    FIX: r now replaces in visual and visual line mode.
+    FIX: Do not expand mappings when Six is accepting character input.
+    TEST: Fix and refactor tests for speed.
+    INFRASTRUCTURE: Fully automate common development tasks.
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~ TIP ~
+    
+        Six has two non-standard modes:
+            - Multiple Selection Mode (MSM)
+            - Multiple Line Selection Mode (MLSM)
+        These two modes help you take advantage of Sublime Text multiple selections.
+
+        To enter MSM, type gh. In this mode, you can press:
+            - j to add selections
+            - k to remove selections
+            - l to skip the current selection
+
+        You cannot run operators in this mode. However, you can switch to normal mode
+        (Esc key) or visual mode (v key) first, and then run operators on the selected
+        text.
+
+        To enter MLSM, type gH. In this mode, you can press:
+            - j to add a selection in the line below
+            - k to add a selection in the line above
+
+        To edit text selected in this way, proceed as in the case of MSM.
+
+        All of this will be documented in the Six documentation.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Follow https://twitter.com/sublimesix for important notifications.
