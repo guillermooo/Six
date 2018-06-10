@@ -1,0 +1,19 @@
+CHANGELOG 0.8.90-dev.00.4
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    TEST: Fix and refactor tests for speed.
+    FIX: Raise AbortCommandError from normal mode if command cannot be found.
+
+    *********************************************************************************
+    ~ ANNOUNCEMENT ~
+
+    There is now a Surround plugin for Sublime Six in the works!
+
+    https://github.com/SublimeSix/plugin-surround
+
+    This plugin will serve as a testing ground for plugin implementation.
+    Surround is a work in progress and you can help if you want!
+    *********************************************************************************
+
+    Follow https://twitter.com/sublimesix for important notifications.

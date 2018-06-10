@@ -4,6 +4,6 @@ CHANGELOG 0.8.90-dev.00.3
 
     NEW: If there are selections present in insert mode, Esc switches directly to visual mode.
     NEW: Command line mode now completes available command names.
-    FIX: Enable " reqister for q operator.
+    FIX: Enable " register for q operator.
 
     Follow https://twitter.com/sublimesix for important notifications.
