@@ -1,0 +1,7 @@
+CHANGELOG 0.8.91
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: :q and :wq again close the active window after closing the last open view.
+
+    Follow https://twitter.com/sublimesix for important notifications.
