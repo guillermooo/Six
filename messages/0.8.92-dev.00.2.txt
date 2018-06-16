@@ -1,0 +1,8 @@
+CHANGELOG 0.8.92-dev.00.2
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Disable bracktet auto-pairing in command line mode.
+    FIX: Adjust xpos after mouse double click switches to visual mode.
+
+    Follow https://twitter.com/sublimesix for important notifications.

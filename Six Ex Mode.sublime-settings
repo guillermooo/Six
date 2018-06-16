@@ -1,4 +1,5 @@
 {
 	"is_widget": true,
-	"gutter": false
+	"gutter": false,
+	"auto_match_enabled": false
 }
