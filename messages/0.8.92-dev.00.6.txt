@@ -1,0 +1,13 @@
+CHANGELOG 0.8.92-dev.00.6
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Key tokenizer accepts <Plug> token.
+    FIX: Suppress mappings when a normal mode command name is partially completed.
+         This ensures that users can map <CR> and z<CR> will still work.
+    FIX: Improve command resolution so that mode handlers can have plugins.
+    FIX: Ensure that dot operator (.) can repeat commands including plugins.
+    FIX: Ensure that plugins can run from mappings.
+    TEST: Test Editor.init mode activation and mode reconciliation.
+
+    Follow https://twitter.com/sublimesix for important notifications.
