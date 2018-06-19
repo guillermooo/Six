@@ -1,0 +1,55 @@
+CHANGELOG 0.8.92
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////
+    ANNOUNCEMENTS
+    ------------------------------------------------------------------------------------------------
+
+    There's now a Surround plugin (port of Vim surround) under development.
+
+    Check it out at https://github.com/SublimeSix/plugin-surround
+
+    I am already using it and it will become the main reference for future plugins. Plugins and the
+    plugin API will remain in alpha for the foreseeable future until all the requirements solidify.
+
+    If you want to use plugins or persist mappings, you will need a configuration file for Six.
+
+    Check out a sample configuration file here: https://github.com/SublimeSix/sample-sixrc
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    TIP
+    ------------------------------------------------------------------------------------------------
+
+    Six is released through a stable and a development channel. If you want to receive development
+    versions of Six, add the following to your Package Control configuration file:
+
+    "install_prereleases": ["Six"]
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    NEW: Key tokenizer accepts <Plug> token.
+    NEW: Add visual cue when / search fails.
+    NEW: J now selects all instances of a word in the current view in Multiple Selection Mode (gh).
+    FIX: Improve repeating insert mode commands after having expanded a mapping.
+    FIX: Improve repeating last visual mode command.
+    FIX: Improve repeating last visual line mode command.
+    FIX: Disable bracket auto-pairing in command line mode.
+    FIX: Adjust xpos after mouse double click switches to visual mode.
+    FIX: Improve Six initialization after user wakes Sublime Text from suspended state (macOS).
+    FIX: Fix all the tests that were failing on Linux.
+    FIX: Improve Six activation in different cases.
+    FIX: Remove regions after successful / search.
+    FIX: Suppress mappings when a normal mode command name is partially completed.
+         This ensures that users can map <CR> and z<CR> will still work.
+    FIX: Improve command resolution so that mode handlers can have plugins.
+    FIX: Ensure that dot operator (.) can repeat commands including plugins.
+    FIX: Ensure that plugins can run from mappings.
+    REFACTOR: Reorganize files.
+    TEST: Test Editor.init mode activation and mode reconciliation.
+    INFRASTRUCTURE: Add tooling for formatting code and finding style issues.
+    INFRASTRUCTURE: Make macOS a first-class development platform for Six.
+
+    Follow https://twitter.com/sublimesix for important notifications.
