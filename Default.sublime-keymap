@@ -434,6 +434,8 @@
 	// {"keys": ["ctrl+f11"], "command": "press_key", "args": {"key": "<C-f11>"}, "context": [{"key": "six_is_in_command_mode"}, {"key": "vi_use_ctrl_keys"}]},
 	// {"keys": ["ctrl+f12"], "command": "press_key", "args": {"key": "<C-f12>"}, "context": [{"key": "six_is_in_command_mode"}, {"key": "vi_use_ctrl_keys"}]},
 
+	{"keys": ["shift+ctrl+6"], "command": "six_press_key", "args": {"key": "<C-^>"}, "context": [{"key": "six_is_in_command_mode"}, {"key": "six_enable_ctrl_keys"}]},
+
 	// {"keys": ["ctrl+shift+f1"], "command": "press_key", "args": {"key": "<C-S-f1>"}, "context": [{"key": "six_is_in_command_mode"}, {"key": "vi_use_ctrl_keys"}]},
 	// {"keys": ["ctrl+shift+f2"], "command": "press_key", "args": {"key": "<C-S-f2>"}, "context": [{"key": "six_is_in_command_mode"}, {"key": "vi_use_ctrl_keys"}]},
 	// {"keys": ["ctrl+shift+f3"], "command": "press_key", "args": {"key": "<C-S-f3>"}, "context": [{"key": "six_is_in_command_mode"}, {"key": "vi_use_ctrl_keys"}]},
