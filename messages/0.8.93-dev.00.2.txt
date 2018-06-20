@@ -1,0 +1,8 @@
+CHANGELOG 0.8.93-dev.00.2
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Whenever possible, pass a list of already tokenized keys to six_press_key.
+    FIX: Refactor capturing insert mode command history for repeating.
+
+    Follow https://twitter.com/sublimesix for important notifications.
