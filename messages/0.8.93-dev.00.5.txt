@@ -1,0 +1,7 @@
+CHANGELOG 0.8.93-dev.00.5
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    REFACTOR: Capture command for repeating at the mode handler level.
+
+    Follow https://twitter.com/sublimesix for important notifications.
