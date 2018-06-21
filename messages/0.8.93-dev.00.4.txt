@@ -1,0 +1,8 @@
+CHANGELOG 0.8.93-dev.00.4
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Improve detection of Sublime Text windowless state and Six re-activation.
+    FIX: Improve mode preservation when switching to an external app and back.
+
+    Follow https://twitter.com/sublimesix for important notifications.
