@@ -1,0 +1,18 @@
+CHANGELOG 0.8.93
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Implement alternate view (ctrl+shift+6) to switch to previous view.
+    NEW: It is now possible to switch to insert mode from multiple selection
+         and multiple line selection mode by pressing 'i'.
+    FIX: Disable bracket auto-pairing in / input panel.
+    FIX: Missing command now does not clear visual line status bar.
+    FIX: Record xpos after iw, aw, iW, aW in visual mode.
+    FIX: Set n/N search command after * and #.
+    FIX: Whenever possible, pass a list of already tokenized keys to six_press_key.
+    FIX: Improve detection of Sublime Text windowless state (macOS) and Six re-activation.
+    FIX: Improve mode preservation when switching to an external app and back.
+    REFACTOR: Capture command for repeating at the mode handler level.
+    REFACTOR: Refactor capturing insert mode command history for repeating.
+
+    Follow https://twitter.com/sublimesix for important notifications.
