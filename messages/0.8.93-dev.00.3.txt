@@ -1,0 +1,10 @@
+CHANGELOG 0.8.93-dev.00.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: It is now possible to switch to insert mode from multiple selection
+         and multiple line selection mode by pressing 'i'.
+    FIX: Drastically decrease timeout period used to detect when user has
+         switched to an external app and back (affects visual modes).
+
+    Follow https://twitter.com/sublimesix for important notifications.
