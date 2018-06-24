@@ -1,0 +1,9 @@
+CHANGELOG 0.8.94-dev.00.2
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Temporarily profile start-up time.
+    FIX: Fix cancelling long mapping.
+    REFACTOR: Start unifying way to access active window/view.
+
+    Follow https://twitter.com/sublimesix for important notifications.
