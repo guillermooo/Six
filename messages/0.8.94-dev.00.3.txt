@@ -1,0 +1,8 @@
+CHANGELOG 0.8.94-dev.00.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: :wq and similar commands on last view don't terminate app on macOS.
+    REFACTOR: @ operator.
+
+    Follow https://twitter.com/sublimesix for important notifications.
