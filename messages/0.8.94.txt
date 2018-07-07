@@ -1,0 +1,29 @@
+CHANGELOG 0.8.94
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////
+    ANNOUNCEMENTS
+    ------------------------------------------------------------------------------------------------
+    
+    Sublime Six is now in beta.
+
+    On July 13th, the price of Sublime Six will increase to EUR 20.
+
+    You can buy a license at EUR 10 through July 13th.
+
+    Sublime Six licenses are valid for any current development versions and release versions in the
+    1.x range.
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
+    NEW: Documentation at http://docs.sublimesix.com.
+    NEW: Implement gt command.
+    NEW: Implement gT command.
+    FIX: Correctly capture insert mode history after replaying a macro.
+    FIX: Insert keys while replaying a pre-tokenized macro.
+    FIX: Fix canceling long mapping.
+    FIX: (macOS) :wq and similar commands on last view don't terminate app.
+    REFACTOR: @ operator.
+    REFACTOR: Start unifying way to access active window/view.
+
+    Follow https://twitter.com/sublimesix for important notifications.
