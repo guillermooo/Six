@@ -1,0 +1,7 @@
+CHANGELOG 0.8.94-dev.20180715.4
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Highlight current match after n/N.
+
+    Follow https://twitter.com/sublimesix for important notifications.
