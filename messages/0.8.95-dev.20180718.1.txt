@@ -1,0 +1,8 @@
+CHANGELOG 0.8.95-dev.20180718.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Reimplement Jumplist.
+    FIX: Improve C-o and C-i jump navigation.
+
+    Follow https://twitter.com/sublimesix for important notifications.
