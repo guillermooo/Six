@@ -1,0 +1,14 @@
+CHANGELOG 0.8.95-dev.20180721.4
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Implement basic :marks command.
+    NEW: Implement '<mark> motion for normal mode (only works with local marks).
+    NEW: Implement `<mark> motion for normal mode (only works with local marks).
+    NEW: Implement m<mark> motion.
+    NEW: Enable <S-CR> key in normal mode.
+    REFACTOR: Refactor jumplist.
+    REFACTOR: Refactor jumplist-related commands.
+    TEST: Add tests for several commands.
+
+    Follow https://twitter.com/sublimesix for important notifications.
