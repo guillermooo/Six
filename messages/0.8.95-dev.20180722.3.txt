@@ -1,0 +1,7 @@
+CHANGELOG 0.8.95-dev.20180722.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Improve :marks information display.
+
+    Follow https://twitter.com/sublimesix for important notifications.
