@@ -1,0 +1,8 @@
+CHANGELOG 0.8.95-dev.20180724.4
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Implement :clearjumps command. 
+    FIX: Fix selecting reversed linewise selection.
+
+    Follow https://twitter.com/sublimesix for important notifications.
