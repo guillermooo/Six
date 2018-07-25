@@ -1,0 +1,9 @@
+CHANGELOG 0.8.96-dev.20180725.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Add jump distance to :jumps data display.
+    FIX: '' goes back to the exact column.
+    REFACTOR: Refactor data structures.
+
+    Follow https://twitter.com/sublimesix for important notifications.
