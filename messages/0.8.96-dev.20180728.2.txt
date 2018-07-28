@@ -1,0 +1,17 @@
+CHANGELOG 0.8.96-dev.20180728.2
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: # and * are jumps.
+    FIX: <C-q> (local symbol navigation) does not leave non-empty selection in view (normal mode).
+    FIX: <C-q> (local symbol navigation) highlights found symbol as current search hit.
+    FIX: <C-q> (local symbol navigation) is a jump.
+    FIX: <Space> is a synonym to l in visual mode.
+    FIX: Do not autocomplete internal ex commands.
+    FIX: Fix ap, ip selection in visual line mode (single line).
+    FIX: Improve how current position is shown in / motion.
+    REFACTOR: Refactor highlighting logic in / motion.
+    REFACTOR: Refactor new selection logic.
+    TEST: Add tests for new selection logic.
+
+    Follow https://twitter.com/sublimesix for important notifications.
