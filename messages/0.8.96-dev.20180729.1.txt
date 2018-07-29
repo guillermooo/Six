@@ -1,0 +1,7 @@
+CHANGELOG 0.8.96-dev.20180729.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: A-Z registers.
+
+    Follow https://twitter.com/sublimesix for important notifications.
