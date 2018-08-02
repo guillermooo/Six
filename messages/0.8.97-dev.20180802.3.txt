@@ -1,0 +1,8 @@
+CHANGELOG 0.8.97-dev.20180802.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Implement CTRL-E (http://vimdoc.sourceforge.net/htmldoc/scroll.html#CTRL-E).
+    NEW: Implement CTRL-Y (http://vimdoc.sourceforge.net/htmldoc/scroll.html#CTRL-Y).
+
+    Follow https://twitter.com/sublimesix for important notifications.
