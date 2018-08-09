@@ -1,0 +1,7 @@
+CHANGELOG 0.8.97-dev.20180809.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Store xpos after `.
+
+    Follow https://twitter.com/sublimesix for important notifications.
