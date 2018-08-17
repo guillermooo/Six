@@ -1,0 +1,7 @@
+CHANGELOG 0.8.99-dev.20180818.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    REFACTOR: Simplify and unify CommandSate processing for all motions.
+
+    Follow https://twitter.com/sublimesix for important notifications.
