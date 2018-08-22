@@ -1,0 +1,8 @@
+CHANGELOG 0.8.99-dev.20180822.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    REFACTOR: Use constants in motions wherever possible.
+    REFACTOR: Delegate more processing to base classes in motions.
+
+    Follow https://twitter.com/sublimesix for important notifications.
