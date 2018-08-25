@@ -1,0 +1,9 @@
+CHANGELOG 0.8.99-dev.20180825.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Improve current word extraction in * and # motions. 
+    REFACTOR: Reimplement UI switcher for all modes.
+    REFACTOR: Reuse same service instance in all motions.
+
+    Follow https://twitter.com/sublimesix for important notifications.
