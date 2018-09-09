@@ -1,0 +1,14 @@
+CHANGELOG 0.8.99
+
+    Sublime Text needs to be restarted for the changes to work.
+    
+    FIX: Improve current word extraction in * and # motions. 
+    REFACTOR: Simplify and unify CommandSate processing for all motions.
+    REFACTOR: Use constants in motions wherever possible.
+    REFACTOR: Delegate more processing to base classes in motions.
+    REFACTOR: Reimplement UI switcher for all modes.
+    REFACTOR: Reuse same service instance in all motions.
+    REFACTOR: Abstract away .process() in related operators.
+    REFACTOR: Improve organization of operator classes.
+
+    Follow https://twitter.com/sublimesix for important notifications.
