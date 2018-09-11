@@ -1,0 +1,7 @@
+CHANGELOG 0.8.100-dev.20180911.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Implement gu and  gU.
+
+    Follow https://twitter.com/sublimesix for important notifications.
