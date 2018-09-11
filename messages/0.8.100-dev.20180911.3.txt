@@ -1,0 +1,8 @@
+CHANGELOG 0.8.100-dev.20180911.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Implement gugu and guu.
+    NEW: Implement gUgU and gUU.
+
+    Follow https://twitter.com/sublimesix for important notifications.
