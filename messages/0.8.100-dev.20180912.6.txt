@@ -1,0 +1,7 @@
+CHANGELOG 0.8.100-dev.20180912.6
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    REFACTOR: Reuse same service instance is all operator classes.
+
+    Follow https://twitter.com/sublimesix for important notifications.
