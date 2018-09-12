@@ -1,0 +1,9 @@
+CHANGELOG 0.8.100-dev.20180912.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Fix v_u and v_U.
+    FIX: Fix gv.
+    FIX: Fix broken cc<Esc> command sequence (report correct mode after cc executes).
+
+    Follow https://twitter.com/sublimesix for important notifications.
