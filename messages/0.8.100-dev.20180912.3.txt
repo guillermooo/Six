@@ -1,0 +1,8 @@
+CHANGELOG 0.8.100-dev.20180912.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Fix caret placement after gu$ and similar commands.
+    REFACTOR: Reuse service instance in more operators.
+
+    Follow https://twitter.com/sublimesix for important notifications.
