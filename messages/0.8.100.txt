@@ -1,0 +1,16 @@
+CHANGELOG 0.8.100
+
+    Sublime Text needs to be restarted for the changes to work.
+    
+    NEW: Implement gu and  gU.
+    NEW: Implement gugu and guu.
+    NEW: Implement gUgU and gUU.
+    NEW: Implement u and U.
+    FIX: Fix gv.
+    FIX: Fix broken cc<Esc> command sequence (report correct mode after cc executes).
+    FIX: Fix caret placement after gu$ and similar commands.
+    REFACTOR: Reuse sameservice instance in all operators.
+    REFACTOR: Reuse same service instance in ex commands.
+    REFACTOR: Reuse same service instance in motions.
+
+    Follow https://twitter.com/sublimesix for important notifications.
