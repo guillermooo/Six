@@ -1,0 +1,10 @@
+CHANGELOG 0.8.101-dev.20180915.2
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Improve handling of AbortCommandError in visual and visual line mode.
+    REFACTOR: Remove old code and reformat code.
+    REFACTOR: Abstract out key processing in OperatorOrMotion classes.
+    REFACTOR: Unify handling of OperatorOrMotion commands.
+
+    Follow https://twitter.com/sublimesix for important notifications.
