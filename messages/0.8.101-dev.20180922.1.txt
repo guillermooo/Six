@@ -1,0 +1,9 @@
+CHANGELOG 0.8.101-dev.20180922.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Implement Replace Mode [R](http://vimdoc.sourceforge.net/htmldoc/change.html#R).
+    
+    	NOTES: <count>R doesn't yet work.
+
+    Follow https://twitter.com/sublimesix for important notifications.
