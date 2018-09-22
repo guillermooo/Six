@@ -1,0 +1,17 @@
+CHANGELOG 0.8.101
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Implement Replace Mode [R](http://vimdoc.sourceforge.net/htmldoc/change.html#R).
+    
+        NOTES: <count>R doesn't yet work.
+        
+    FIX: Improve handling of AbortCommandError in visual and visual line mode.
+    REFACTOR: Remove old code and reformat code.
+    REFACTOR: Abstract out key processing in OperatorOrMotion classes.
+    REFACTOR: Unify handling of OperatorOrMotion commands.
+    REFACTOR: Improve service orchestration.
+    REFACTOR: Clean up.
+    REFACTOR: Use services.
+
+    Follow https://twitter.com/sublimesix for important notifications.
