@@ -1,0 +1,7 @@
+CHANGELOG 0.8.102-dev.20180929.5
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Add jump after goto_definition (F12).
+
+    Follow https://twitter.com/sublimesix for important notifications.
