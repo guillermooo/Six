@@ -1,0 +1,7 @@
+CHANGELOG 0.8.102-dev.20180929.3
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Esc after o or O removes whitespace in some cases.
+
+    Follow https://twitter.com/sublimesix for important notifications.
