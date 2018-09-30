@@ -1,0 +1,14 @@
+CHANGELOG 0.8.102
+
+    Sublime Text needs to be restarted for the changes to work.
+    
+    NEW: gj and gk in visual mode.
+    FIX: Improve implementation of gj, gk.
+        NOTES:
+        gj and gk rely extensively on Sublime Text native commands
+        and currently have limitations in terms of Vim behavior.
+    FIX: Implement replace mode (R).
+    FIX: Esc after o or O removes whitespace in some cases.
+    FIX: Add jump after goto_definition (F12).
+
+    Follow https://twitter.com/sublimesix for important notifications.
