@@ -1,0 +1,7 @@
+CHANGELOG 0.8.103-dev.20181030.2
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Fix cj at second-to-last line.
+
+    Follow https://twitter.com/sublimesix for important notifications.
