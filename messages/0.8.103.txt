@@ -1,0 +1,10 @@
+CHANGELOG 0.8.103
+
+    Sublime Text needs to be restarted for the changes to work.
+    
+    FIX: Fix at motion when the intermediate tags have attributes.
+    FIX: Fix cj, cc, and <count>C when they should delete the last line.
+    FIX: Fix D in visual mode when the caret ends up in a line led by white space.
+    REFACTOR: Refactor Sublime Text commands.
+
+    Follow https://twitter.com/sublimesix for important notifications.
