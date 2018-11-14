@@ -1,0 +1,8 @@
+CHANGELOG 0.8.104-dev.20181114.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: ciw now deletes entire last word in file.
+    REFACTOR: Sublime Text commands.
+
+    Follow https://twitter.com/sublimesix for important notifications.
