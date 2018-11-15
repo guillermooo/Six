@@ -1,0 +1,11 @@
+CHANGELOG 0.8.104
+
+    Sublime Text needs to be restarted for the changes to work.
+    
+    FIX: ciw now deletes entire last word in file.
+    FIX: Correct caret position after D when count > 1.
+    FIX: Improve caret position after d$ when count > 1.
+    REFACTOR: Refactor Sublime Text commands.
+    TEST: Add tests for $.
+
+    Follow https://twitter.com/sublimesix for important notifications.
