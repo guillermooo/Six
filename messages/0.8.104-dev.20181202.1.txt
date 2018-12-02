@@ -1,0 +1,7 @@
+CHANGELOG 0.8.104-dev.20181202.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    NEW: Implement H, L, M for normal mode.
+
+    Follow https://twitter.com/sublimesix for important notifications.
