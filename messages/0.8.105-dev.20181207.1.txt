@@ -1,0 +1,7 @@
+CHANGELOG 0.8.105-dev.20181207.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: ' and ` now create a jump when invoked.
+
+    Follow https://twitter.com/sublimesix for important notifications.
