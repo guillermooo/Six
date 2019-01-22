@@ -1,0 +1,8 @@
+CHANGELOG 0.8.106-dev.20190122.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Fix scrolling into view in visual mode.
+    FIX: f no longer ignores next character in visual mode.
+
+    Follow https://twitter.com/sublimesix for important notifications.
