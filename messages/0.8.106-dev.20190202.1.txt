@@ -1,0 +1,7 @@
+CHANGELOG 0.8.106-dev.20190202.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    FIX: Add workaround for Sublime Text build 3189 plugin loading breakage.
+
+    Follow https://twitter.com/sublimesix for important notifications.
