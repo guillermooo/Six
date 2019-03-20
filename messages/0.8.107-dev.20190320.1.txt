@@ -1,0 +1,41 @@
+CHANGELOG 0.8.107-dev.20190320.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    /// ANNOUNCEMENT ///////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////
+    
+        TL;DR
+    
+        Six's dev channel will become more unstable for a while. Switch to
+        the stable channel if you need to. See http://docs.sublimesix.com/ for more
+        information.
+    
+        ===
+    
+        SIX.NEXT IS COMING TO THE DEV CHANNEL
+    
+    	Six's dev channel will start delivering Six.Next in the near future.
+    
+    	Six.Next currently lacks many features available today in Six.Current.
+    
+    	If you want to keep using Six.Current until Six.Next reaches feature parity,
+    	make sure that you don't have the following setting in your Package Control
+    	User settings:
+    
+    		"install_prereleases": ["Six"]
+    
+    	See http://docs.sublimesix.com/ for more information.
+    
+    	Six.Next will coexist with Six.Current in the dev branch for a time. This
+    	means that you will be able to switch between the two with a keyboard shortcut.
+    	However, both are going to be more unstable than Six.Current from the stable
+    	channel.
+    
+    ////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////
+    
+    
+    * Improve current word selection for # and * in visual mode. 
+
+    Follow https://twitter.com/sublimesix for important notifications.
