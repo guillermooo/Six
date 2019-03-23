@@ -1,4 +1,5 @@
 [
 	{ "caption": "Six: Enter License", "command": "vim_priv" },
+	{ "caption": "Six: Toggle Debug", "command": "six_vm_toggle_debug" },
 	{ "caption": "Preferences: Six Settings", "command": "edit_settings", "args": {"base_file": "${packages}/Six/Settings/Six.sublime-settings", "default": "// Settings in here override those in \"Six/Settings/Six.sublime-settings\".\n{\n\t$0\n}\n" } }
 ]
