@@ -520,6 +520,7 @@
 	// {"keys": ["f10"], "command": "press_key", "args": {"key": "<f10>"}, "context": [{"key": "six_is_in_command_mode"}]},
 	// {"keys": ["f11"], "command": "press_key", "args": {"key": "<f11>"}, "context": [{"key": "six_is_in_command_mode"}]},
 	// {"keys": ["f12"], "command": "press_key", "args": {"key": "<f12>"}, "context": [{"key": "six_is_in_command_mode"}]},
+	{"keys": ["f12"], "command": "six_vm_press_key", "args": {"key": "<f12>"}, "context": [{"key": "six_is_in_command_mode"}]}, // TODO: not if we are collecting input.
 
 	// {"keys": ["shift+f1"], 	"command": "press_key", "args": {"key": "<S-f1>"}, 	"context": [{"key": "six_is_in_command_mode"}]},
 	// {"keys": ["shift+f2"], 	"command": "press_key", "args": {"key": "<S-f2>"}, 	"context": [{"key": "six_is_in_command_mode"}]},
@@ -593,5 +594,8 @@
 	{ "keys": ["j"], "command": "find_under_expand", "context": [{ "key": "six_is_in_multiple_selection_mode" }] },
 	{ "keys": ["J"], "command": "find_all_under", "context": [{ "key": "six_is_in_multiple_selection_mode" }] },
 	{ "keys": ["k"], "command": "soft_undo", "context": [{ "key": "six_is_in_multiple_selection_mode" }] },
-	{ "keys": ["l"], "command": "find_under_expand_skip", "context": [{ "key": "six_is_in_multiple_selection_mode" }] }
+	{ "keys": ["l"], "command": "find_under_expand_skip", "context": [{ "key": "six_is_in_multiple_selection_mode" }] },
+
+	{"keys": ["pagedown"],				"command": "six_vm_eval_one", "context": [{"key": "six_vm_is_in_command_mode"}]}
+
 ]

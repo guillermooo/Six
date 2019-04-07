@@ -1,0 +1,83 @@
+CHANGELOG 0.8.107-dev.20190407.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    ////////////////////////////////////////////////////////////////////////////////
+    // WELCOME /////////////////////////////////////////////////////////////////////
+    /////////// TO /////////////////////////////////////////////////////////////////
+    /////////////// SIX.NEXT ///////////////////////////////////////////////////////
+    
+    You are on the dev release channel of Six.
+    
+    You are now using Six.Next, a partial reimplementation of Six.
+    
+    
+    SIX.NEXT IS INCOMPLETE
+    
+    Six.Next is under active development. You may encounter bugs often and you may
+    temporarily miss features available today in Six.Current.
+    
+    (Six.Next is already being used to develop Six.Next.)
+    
+    If you want to use the most stable version of Six, make sure to use the stable
+    release channel.
+    
+        More information: http://docs.sublimesix.com/
+    
+    
+    SIX.NEXT IS THE FUTURE
+    
+    As soon as Six.Next reaches feature parity with Six.Current, it will become
+    Six 1.0.
+    
+    Notable missing features:
+    
+        * Ex mode.
+    
+    
+    SIX.CURRENT AND SIX.NEXT SIDE BY SIDE
+    
+    Six.Current and Six.Next are executing side by side in this release channel. If
+    you want to switch between the two, press
+        
+        * Shift+Esc
+    
+    (If that key binding is overriden in your User/Default.sublime-keymap or
+    otherwise, it will not work. If Six.Next crashes at start-up, that key binding
+    won't be available either.)
+    
+    Note that Six.Current from the stable release channel is still more stable than
+    the Six.Current version available in side-by-side execution.
+    
+    
+    DEBUGGING
+    
+    If you want to report a bug for Six.Next, you may want to include the debug
+    output from the Sublime Text console after enabling Six.Next's debug mode using
+    the 'Six: Toggle Debug' command from the command palette.
+    
+    
+    Thank you for using Six!
+    
+    Guillermo
+    
+    ////////////////////////////////////////////////////////////////////////////////
+    
+    NEW: Enable = operator for visual line mode.
+    NEW: Enable C operator for visual line mode.
+    NEW: Enable gq for visual line mode.
+    NEW: Enable gu, gU for visual line mode.
+    NEW: Enable J operator for visual line mode.
+    NEW: Enable p and P operators for visual line mode.
+    NEW: Enable r operator for visual line mode.
+    NEW: Enable S for visual line mode.
+    NEW: Enable S for visual mode.
+    NEW: Enable z-, z., z<CR>, zb, zt, zz for visual line mode.
+    NEW: Enable ~ operator for visual line mode.
+    NEW: Implement f12 (goto definition) non-motion for normal mode.
+    FIX: <C-q> and <C-s-q> must jump.
+    FIX: Fix test.
+    INFRASTRUCTURE: Set up local CI server for faster iteration.
+    INFRASTRUCTURE: Start implementing setp-through debugger.
+
+    Follow https://twitter.com/sublimesix for important notifications.
