@@ -1,0 +1,96 @@
+CHANGELOG 0.8.107-dev.20190527.1
+
+    Sublime Text needs to be restarted for the changes to work.
+
+    ////////////////////////////////////////////////////////////////////////////////
+    // WELCOME /////////////////////////////////////////////////////////////////////
+    /////////// TO /////////////////////////////////////////////////////////////////
+    /////////////// SIX.NEXT ///////////////////////////////////////////////////////
+    
+    You are on the dev release channel of Six.
+    
+    You are now using Six.Next, a partial reimplementation of Six.
+    
+    
+    SIX.NEXT IS INCOMPLETE
+    
+    Six.Next is under active development. You may encounter bugs often and you may
+    temporarily miss features available today in Six.Current.
+    
+    (Six.Next is already being used to develop Six.Next.)
+    
+    If you want to use the most stable version of Six, make sure to use the stable
+    release channel.
+    
+        More information: http://docs.sublimesix.com/
+    
+    
+    SIX.NEXT IS THE FUTURE
+    
+    As soon as Six.Next reaches feature parity with Six.Current, it will become
+    Six 1.0.
+    
+    Notable missing features:
+    
+        * Plugins
+    
+    
+    SIX.CURRENT AND SIX.NEXT SIDE BY SIDE
+    
+    Six.Current and Six.Next are executing side by side in this release channel. If
+    you want to switch between the two, press
+        
+        * Shift+Esc
+    
+    (If that key binding is overriden in your User/Default.sublime-keymap or
+    otherwise, it will not work. If Six.Next crashes at start-up, that key binding
+    won't be available either.)
+    
+    Note that Six.Current from the stable release channel is still more stable than
+    the Six.Current version available in side-by-side execution.
+    
+    
+    DEBUGGING
+    
+    If you want to report a bug for Six.Next, you may want to include the debug
+    output from the Sublime Text console after enabling Six.Next's debug mode using
+    the 'Six: Toggle Debug' command from the command palette.
+    
+    
+    Thank you for using Six!
+    
+    Guillermo
+    
+    ////////////////////////////////////////////////////////////////////////////////
+    
+    NOTE: You can persist mappings using a configuration file.
+    
+    	1. Create a file like Packages/User/sixrc.py (name doesn't matter)
+    	2. Add content similar to:
+    
+    		from Six._init_ import vm
+    		from Six.lib.constants import Mode
+    
+    		# Normal mode mappings
+    		vm.mappings.add(Mode.Normal, "<Space>", ":")
+    		vm.mappings.add(Mode.Normal, "<CR>", "/")
+    		vm.mappings.add(Mode.Normal, "^", "0")
+    		vm.mappings.add(Mode.Normal, "0", "^")
+    		vm.mappings.add(Mode.Normal, "gl", "<C-q>") # local symbols
+    		vm.mappings.add(Mode.Normal, "gL", "<C-S-q>") # global symbols
+    
+    		# Operator Pending mode mappings
+    		vm.mappings.add(Mode.OperatorPending, "<CR>", "/")
+    
+    This feature will be fully documented when Six.Next is released in the stable
+    channel.
+    
+    NEW: Enable :nmap and :nunmap commands for ex mode.
+    NEW: Enable :substitute command for ex mode.
+    NEW: Enable command :nmapclear for ex mode.
+    FIX: <count>v and <count>V for normal mode.
+    FIX: Exclude count keys from mapping expansion.
+    REFACTOR: Rename system variables and rearrange imports.
+    TEST: Add tests.
+
+    Follow https://twitter.com/sublimesix for important notifications.
